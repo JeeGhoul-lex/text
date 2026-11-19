@@ -1,0 +1,7 @@
+﻿Repository : D:\Unity\Orgv1-integration-work
+Branch : integration/full-unity-project
+HEAD : 4e7765990a9924a81b8fbd817b8396fbf74b2742
+Index tree : 7c36c683ea0e45a636f992b177936aaecbea685d
+Expected tree : 7c36c683ea0e45a636f992b177936aaecbea685d
+
+SCRIPT ERROR: warning: in the working copy of 'Assets/Settings/UniversalRenderPipelineGlobalSettings.asset', LF will be replaced by CRLF the next time Git touches it
