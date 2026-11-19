@@ -1,0 +1,1628 @@
+﻿=== BRANCH AND HEAD ===
+Branch: integration/full-unity-project
+HEAD: 4e7765990a9924a81b8fbd817b8396fbf74b2742
+
+=== INDEX TREE ===
+Expected: 7c36c683ea0e45a636f992b177936aaecbea685d
+Actual:   7c36c683ea0e45a636f992b177936aaecbea685d
+Matches:  True
+
+=== TRACKED FILE COUNT ===
+Index: 804
+Target: 804
+
+=== STAGED SUMMARY ===
+ .gitignore                                         |    54 +
+ .vscode/extensions.json                            |     5 +
+ .vscode/launch.json                                |    10 +
+ .vscode/settings.json                              |    71 +
+ Assets/Assets.meta                                 |     8 +
+ Assets/Assets/Orgv1.meta                           |     8 +
+ Assets/Assets/Orgv1/.gitattributes                 |     2 +
+ Behavior.meta => Assets/Assets/Orgv1/Behavior.meta |     0
+ .../Assets/Orgv1/Behavior}/Graph.meta              |     0
+ .../Orgv1/Behavior}/Graph/GlobalStockHistory.cs    |     0
+ .../Behavior}/Graph/GlobalStockHistory.cs.meta     |     0
+ .../Orgv1/Behavior}/Graph/ObjectStockHistory.cs    |     0
+ .../Behavior}/Graph/ObjectStockHistory.cs.meta     |     0
+ .../Assets/Orgv1/Behavior}/Graph/Statistics.cs     |     0
+ .../Orgv1/Behavior}/Graph/Statistics.cs.meta       |     0
+ .../Assets/Orgv1/Behavior}/Graph/StockSnapshot.cs  |     0
+ .../Orgv1/Behavior}/Graph/StockSnapshot.cs.meta    |     0
+ .../Assets/Orgv1/Behavior}/Position.meta           |     0
+ .../Position/CaravanDisbandDestinationService.cs   |   127 +
+ .../CaravanDisbandDestinationService.cs.meta       |     2 +
+ .../Position/CaravanDispatchAttemptRecord.cs       |    34 +
+ .../Position/CaravanDispatchAttemptRecord.cs.meta  |     2 +
+ .../Behavior/Position/CaravanDispatchOrder.cs      |   633 +
+ .../Behavior/Position/CaravanDispatchOrder.cs.meta |     2 +
+ .../Behavior/Position/CaravanDispatchOrderDraft.cs |   529 +
+ .../Position/CaravanDispatchOrderDraft.cs.meta     |     2 +
+ .../CaravanDispatchOrderValidationResult.cs        |   107 +
+ .../CaravanDispatchOrderValidationResult.cs.meta   |     2 +
+ .../Position/CaravanInitialCargoTransferService.cs |   242 +
+ .../CaravanInitialCargoTransferService.cs.meta     |     2 +
+ .../Orgv1/Behavior}/Position/CaravanPosition.cs    |   474 +-
+ .../Behavior}/Position/CaravanPosition.cs.meta     |     0
+ .../Orgv1/Behavior}/Position/CaravanRoute.cs       |    48 +
+ .../Orgv1/Behavior}/Position/CaravanRoute.cs.meta  |     0
+ .../Orgv1/Behavior}/Position/CaravanRouteStep.cs   |     0
+ .../Behavior}/Position/CaravanRouteStep.cs.meta    |     0
+ .../Orgv1/Behavior}/Position/CaravanState.cs       |     5 +-
+ .../Orgv1/Behavior}/Position/CaravanState.cs.meta  |     0
+ .../Orgv1/Behavior/Position/Diagnostics.meta       |     8 +
+ .../PositionRemovalDiagnosticHistory.cs            |   326 +
+ .../PositionRemovalDiagnosticHistory.cs.meta       |     2 +
+ .../Diagnostics/PositionRemovalDiagnosticRecord.cs |   156 +
+ .../PositionRemovalDiagnosticRecord.cs.meta        |     2 +
+ .../Diagnostics/PositionRemovalDiagnosticTypes.cs  |    75 +
+ .../PositionRemovalDiagnosticTypes.cs.meta         |     2 +
+ .../Behavior/Position/DispatchRecoveryService.cs   |   762 +
+ .../Position/DispatchRecoveryService.cs.meta       |     2 +
+ .../Assets/Orgv1/Behavior}/Position/Position.cs    |    37 +-
+ .../Orgv1/Behavior}/Position/Position.cs.meta      |     0
+ .../Position/PositionContentTransferService.cs     |   461 +
+ .../PositionContentTransferService.cs.meta         |     2 +
+ .../Behavior/Position/PositionRemovalService.cs    |   822 +
+ .../Position/PositionRemovalService.cs.meta        |     2 +
+ .../Assets/Orgv1/DefaultGeneric.meta               |     0
+ .../Orgv1/DefaultGeneric}/DefaultLocations.cs      |    28 +-
+ .../Orgv1/DefaultGeneric}/DefaultLocations.cs.meta |     0
+ .../Orgv1/DefaultGeneric}/GameInitializer.cs       |     0
+ .../Orgv1/DefaultGeneric}/GameInitializer.cs.meta  |     0
+ .../Orgv1/DefaultGeneric}/WorldLocationBinder.cs   |    37 +
+ .../DefaultGeneric}/WorldLocationBinder.cs.meta    |     0
+ .../DefaultGeneric/WorldLocationVisualFactory.cs   |   219 +
+ .../WorldLocationVisualFactory.cs.meta             |     2 +
+ .../Assets/Orgv1/Documentation.meta                |     0
+ .../Assets/Orgv1/Documentation}/CaravanSystem.meta |     0
+ .../Documentation/CaravanSystem/DesignNotes.md     |  3618 +
+ .../CaravanSystem/DesignNotes.md.meta              |     0
+ .../Documentation/CaravanSystem/TestRunLog.md      |   158 +
+ .../Documentation/CaravanSystem/TestRunLog.md.meta |     7 +
+ Assets/Assets/Orgv1/Documentation/UI.meta          |     8 +
+ Assets/Assets/Orgv1/Documentation/UI/README.md     |    40 +
+ .../Assets/Orgv1/Documentation/UI/README.md.meta   |     7 +
+ .../Assets/Orgv1/Documentation/UI/Screenshots.meta |     8 +
+ .../Orgv1/Documentation/UI/Screenshots/.gitkeep    |     0
+ ..._Screenshot_UnityEditor_20261119_124825_160.png |   Bin 0 -> 529533 bytes
+ ...enshot_UnityEditor_20261119_124825_160.png.meta |   117 +
+ Assets/Assets/Orgv1/Editor.meta                    |     8 +
+ .../Orgv1/Editor/UIScreenshotCaptureWindow.cs      |   609 +
+ .../Orgv1/Editor/UIScreenshotCaptureWindow.cs.meta |    11 +
+ Entities.meta => Assets/Assets/Orgv1/Entities.meta |     0
+ .../Assets/Orgv1/Entities}/Activities.meta         |     0
+ .../Assets/Orgv1/Entities}/Activities/Activity.cs  |     0
+ .../Orgv1/Entities}/Activities/Activity.cs.meta    |     0
+ .../Activities/BuildIrrigationActivity.cs          |     0
+ .../Activities/BuildIrrigationActivity.cs.meta     |     0
+ .../Entities}/Activities/BuildPyramidActivity.cs   |     0
+ .../Activities/BuildPyramidActivity.cs.meta        |     0
+ .../Activities/CleanIrrigationActivity.cs          |     0
+ .../Activities/CleanIrrigationActivity.cs.meta     |     0
+ .../Entities}/Activities/CultivateFieldActivity.cs |     0
+ .../Activities/CultivateFieldActivity.cs.meta      |     0
+ .../Orgv1/Entities}/Activities/ExchangeActivity.cs |     0
+ .../Entities}/Activities/ExchangeActivity.cs.meta  |     0
+ .../Orgv1/Entities}/Activities/GrowFoodActivity.cs |     0
+ .../Entities}/Activities/GrowFoodActivity.cs.meta  |     0
+ .../Entities}/Activities/HireUnemployedActivity.cs |     0
+ .../Activities/HireUnemployedActivity.cs.meta      |     0
+ .../Entities}/Activities/MineResourcesActivity.cs  |     0
+ .../Activities/MineResourcesActivity.cs.meta       |     0
+ .../Activities/ProcessResourcesActivity.cs         |     0
+ .../Activities/ProcessResourcesActivity.cs.meta    |     0
+ .../Entities}/Activities/ResourceSearchActivity.cs |     0
+ .../Activities/ResourceSearchActivity.cs.meta      |     0
+ .../Activities/ResourceTransferActivity.meta       |     0
+ .../LocationToPositionTransferActivity.cs          |     0
+ .../LocationToPositionTransferActivity.cs.meta     |     0
+ .../PositionToLocationTransferActivity.cs          |     0
+ .../PositionToLocationTransferActivity.cs.meta     |     0
+ .../PositionToPositionTransferActivity.cs          |     0
+ .../PositionToPositionTransferActivity.cs.meta     |     0
+ .../ResourceTransferActivity.cs                    |     0
+ .../ResourceTransferActivity.cs.meta               |     0
+ .../Orgv1/Entities}/Activities/RestActivity.cs     |     0
+ .../Entities}/Activities/RestActivity.cs.meta      |     0
+ .../Entities}/Activities/SendCaravanActivity.cs    |    31 +-
+ .../Activities/SendCaravanActivity.cs.meta         |     0
+ .../Activities/SurveyResourcesActivity.cs          |     0
+ .../Activities/SurveyResourcesActivity.cs.meta     |     0
+ .../Assets/Orgv1/Entities}/IDGenerator.cs          |     0
+ .../Assets/Orgv1/Entities}/IDGenerator.cs.meta     |     0
+ .../Assets/Orgv1/Entities}/Objects.meta            |     0
+ .../Assets/Orgv1/Entities}/Objects/City.cs         |     0
+ .../Assets/Orgv1/Entities}/Objects/City.cs.meta    |     0
+ .../Assets/Orgv1/Entities}/Objects/CustomPoint.cs  |     0
+ .../Orgv1/Entities}/Objects/CustomPoint.cs.meta    |     0
+ .../Assets/Orgv1/Entities}/Objects/Field.cs        |     0
+ .../Assets/Orgv1/Entities}/Objects/Field.cs.meta   |     0
+ .../Assets/Orgv1/Entities}/Objects/MapLocation.cs  |     0
+ .../Orgv1/Entities}/Objects/MapLocation.cs.meta    |     0
+ .../Assets/Orgv1/Entities}/Objects/Port.cs         |     0
+ .../Assets/Orgv1/Entities}/Objects/Port.cs.meta    |     0
+ .../Assets/Orgv1/Entities}/Objects/Pyramid.cs      |     0
+ .../Assets/Orgv1/Entities}/Objects/Pyramid.cs.meta |     0
+ .../Assets/Orgv1/Entities}/Objects/Qarry.cs        |     0
+ .../Assets/Orgv1/Entities}/Objects/Qarry.cs.meta   |     0
+ .../Assets/Orgv1/Entities}/ResourceType.cs         |     0
+ .../Assets/Orgv1/Entities}/ResourceType.cs.meta    |     0
+ .../Assets/Orgv1/GameStart.meta                    |     0
+ .../Assets/Orgv1/GameStart}/GameBootstrap.cs       |    62 +
+ .../Assets/Orgv1/GameStart}/GameBootstrap.cs.meta  |     0
+ .../Assets/Orgv1/Interfaces.meta                   |     0
+ .../Assets/Orgv1/Interfaces}/IResourceStorage.cs   |     0
+ .../Orgv1/Interfaces}/IResourceStorage.cs.meta     |     0
+ .../Assets/Orgv1/Interfaces}/IWorkforceProvider.cs |     0
+ .../Orgv1/Interfaces}/IWorkforceProvider.cs.meta   |     0
+ Managers.meta => Assets/Assets/Orgv1/Managers.meta |     0
+ Assets/Assets/Orgv1/Managers/CaravanDispatcher.cs  |  1338 +
+ .../Orgv1/Managers/CaravanDispatcher.cs.meta       |     2 +
+ .../Assets/Orgv1/Managers}/FieldManager.cs         |     0
+ .../Assets/Orgv1/Managers}/FieldManager.cs.meta    |     0
+ .../Assets/Orgv1/Managers}/GameConsoleAdvanced.cs  |     0
+ .../Orgv1/Managers}/GameConsoleAdvanced.cs.meta    |     0
+ .../Assets/Orgv1/Managers}/GameSaveManager.cs      |   162 +-
+ .../Assets/Orgv1/Managers}/GameSaveManager.cs.meta |     0
+ .../Assets/Orgv1/Managers}/GameTestManager.cs      |   146 +-
+ .../Assets/Orgv1/Managers}/GameTestManager.cs.meta |     0
+ .../Assets/Orgv1/Managers}/GameTimeManager.cs      |     0
+ .../Assets/Orgv1/Managers}/GameTimeManager.cs.meta |     0
+ .../Assets/Orgv1/Managers}/MapLocationManager.cs   |     0
+ .../Orgv1/Managers}/MapLocationManager.cs.meta     |     0
+ Assets/Assets/Orgv1/Managers/MovementDispatcher.cs |   216 +
+ .../Orgv1/Managers/MovementDispatcher.cs.meta      |     2 +
+ .../Assets/Orgv1/Managers}/PositionManager.cs      |   535 +-
+ .../Assets/Orgv1/Managers}/PositionManager.cs.meta |     0
+ Assets/Assets/Orgv1/PROJECT_FILE_LIST.txt          |   224 +
+ .../Assets/Orgv1/PROJECT_FILE_LIST.txt.meta        |     0
+ README.md => Assets/Assets/Orgv1/README.md         |     0
+ .../Assets/Orgv1/README.md.meta                    |     0
+ SaveScr.meta => Assets/Assets/Orgv1/SaveScr.meta   |     0
+ {SaveScr => Assets/Assets/Orgv1/SaveScr}/Data.meta |     0
+ .../Assets/Orgv1/SaveScr}/Data/Behavior.meta       |     0
+ .../Orgv1/SaveScr}/Data/Behavior/GraphData.meta    |     0
+ .../Behavior/GraphData/GlobalStockHistoryData.cs   |     0
+ .../GraphData/GlobalStockHistoryData.cs.meta       |     0
+ .../Behavior/GraphData/ObjectStockHistoryData.cs   |     0
+ .../GraphData/ObjectStockHistoryData.cs.meta       |     0
+ .../Data/Behavior/GraphData/StatisticsData.cs      |     0
+ .../Data/Behavior/GraphData/StatisticsData.cs.meta |     0
+ .../Data/Behavior/GraphData/StockSnapshotData.cs   |     0
+ .../Behavior/GraphData/StockSnapshotData.cs.meta   |     0
+ .../Orgv1/SaveScr}/Data/Behavior/PositionData.meta |     0
+ .../PositionData/CaravanDispatchOrderData.cs       |   106 +
+ .../PositionData/CaravanDispatchOrderData.cs.meta  |     2 +
+ .../Behavior/PositionData/CaravanPositionData.cs   |    37 +-
+ .../PositionData/CaravanPositionData.cs.meta       |     0
+ .../Data/Behavior/PositionData/CaravanRouteData.cs |     0
+ .../Behavior/PositionData/CaravanRouteData.cs.meta |     0
+ .../Behavior/PositionData/CaravanRouteStepData.cs  |     0
+ .../PositionData/CaravanRouteStepData.cs.meta      |     0
+ .../Data/Behavior/PositionData/PositionData.cs     |     3 +
+ .../Behavior/PositionData/PositionData.cs.meta     |     0
+ .../Assets/Orgv1/SaveScr}/Data/Entities.meta       |     0
+ .../Orgv1/SaveScr}/Data/Entities/Activity.meta     |     0
+ .../Data/Entities/Activity/ActivityData.cs         |     0
+ .../Data/Entities/Activity/ActivityData.cs.meta    |     0
+ .../Data/Entities/Activity/ActivityFactory.cs      |     0
+ .../Data/Entities/Activity/ActivityFactory.cs.meta |     0
+ .../SaveScr}/Data/Entities/ExchangeRateEntry.cs    |     0
+ .../Data/Entities/ExchangeRateEntry.cs.meta        |     0
+ .../SaveScr}/Data/Entities/IDGeneratorData.cs      |     0
+ .../SaveScr}/Data/Entities/IDGeneratorData.cs.meta |     0
+ .../Orgv1/SaveScr}/Data/Entities/MapLocation.meta  |     0
+ .../Data/Entities/MapLocation/CaravanData.cs       |     0
+ .../Data/Entities/MapLocation/CaravanData.cs.meta  |     0
+ .../SaveScr}/Data/Entities/MapLocation/CityData.cs |     0
+ .../Data/Entities/MapLocation/CityData.cs.meta     |     0
+ .../Data/Entities/MapLocation/CustomPointData.cs   |     0
+ .../Entities/MapLocation/CustomPointData.cs.meta   |     0
+ .../Data/Entities/MapLocation/FieldData.cs         |     0
+ .../Data/Entities/MapLocation/FieldData.cs.meta    |     0
+ .../Data/Entities/MapLocation/MapLocationData.cs   |     0
+ .../Entities/MapLocation/MapLocationData.cs.meta   |     0
+ .../SaveScr}/Data/Entities/MapLocation/PortData.cs |     0
+ .../Data/Entities/MapLocation/PortData.cs.meta     |     0
+ .../Data/Entities/MapLocation/PyramidData.cs       |     0
+ .../Data/Entities/MapLocation/PyramidData.cs.meta  |     0
+ .../Data/Entities/MapLocation/QuarryData.cs        |     0
+ .../Data/Entities/MapLocation/QuarryData.cs.meta   |     0
+ .../Orgv1/SaveScr}/Data/Entities/ResourceEntry.cs  |     0
+ .../SaveScr}/Data/Entities/ResourceEntry.cs.meta   |     0
+ .../Data/Entities/ResourceStorageExtensions.cs     |     0
+ .../Entities/ResourceStorageExtensions.cs.meta     |     0
+ .../Assets/Orgv1/SaveScr}/Data/GameSaveData.cs     |     6 +
+ .../Orgv1/SaveScr}/Data/GameSaveData.cs.meta       |     0
+ .../Assets/Orgv1/SaveScr}/Data/TimeData.cs         |     0
+ .../Assets/Orgv1/SaveScr}/Data/TimeData.cs.meta    |     0
+ Testing.meta => Assets/Assets/Orgv1/Testing.meta   |     0
+ .../Orgv1/Testing/CaravanAutomaticDisbandTest.cs   |   499 +
+ .../Testing/CaravanAutomaticDisbandTest.cs.meta    |     2 +
+ Assets/Assets/Orgv1/Testing/CaravanDisbandTest.cs  |   615 +
+ .../Orgv1/Testing/CaravanDisbandTest.cs.meta       |     2 +
+ .../Orgv1/Testing/CaravanDispatchSaveLoadTest.cs   |   452 +
+ .../Testing/CaravanDispatchSaveLoadTest.cs.meta    |     2 +
+ Assets/Assets/Orgv1/Testing/CaravanDispatchTest.cs |   390 +
+ .../Orgv1/Testing/CaravanDispatchTest.cs.meta      |     2 +
+ .../Assets/Orgv1/Testing/CaravanLifecycleTest.cs   |   452 +
+ .../Orgv1/Testing/CaravanLifecycleTest.cs.meta     |     2 +
+ .../Assets/Orgv1/Testing/CaravanLoopRouteTest.cs   |   574 +
+ .../Orgv1/Testing/CaravanLoopRouteTest.cs.meta     |     2 +
+ .../Assets/Orgv1/Testing}/CaravanMovementTest.cs   |   138 +-
+ .../Orgv1/Testing}/CaravanMovementTest.cs.meta     |     0
+ .../Assets/Orgv1/Testing/FullWorldSaveLoadTest.cs  |   294 +
+ .../Orgv1/Testing/FullWorldSaveLoadTest.cs.meta    |     2 +
+ .../Assets/Orgv1/Testing}/GameTest.cs              |     8 +
+ .../Assets/Orgv1/Testing}/GameTest.cs.meta         |     0
+ .../Assets/Orgv1/Testing}/GameTestContext.cs       |     0
+ .../Assets/Orgv1/Testing}/GameTestContext.cs.meta  |     0
+ .../Orgv1/Testing}/MiningStatisticsOrderTest.cs    |     0
+ .../Testing}/MiningStatisticsOrderTest.cs.meta     |     0
+ .../Orgv1/Testing/PeriodicCyclicDispatchTest.cs    |   378 +
+ .../Testing/PeriodicCyclicDispatchTest.cs.meta     |    11 +
+ .../Assets/Orgv1/Testing/PositionCreationTest.cs   |   390 +
+ .../Orgv1/Testing/PositionCreationTest.cs.meta     |     2 +
+ .../Orgv1/Testing}/StatisticsStockContentTest.cs   |     0
+ .../Testing}/StatisticsStockContentTest.cs.meta    |     0
+ Assets/Assets/Orgv1/Trash.meta                     |     8 +
+ UI.meta => Assets/Assets/Orgv1/UI.meta             |     0
+ {UI => Assets/Assets/Orgv1/UI}/LocationUI.meta     |     0
+ .../LocationUI/CustomPointPlacementController.cs   |   162 +-
+ .../CustomPointPlacementController.cs.meta         |     0
+ .../UI}/LocationUI/WorldLocationClickHandler.cs    |     0
+ .../LocationUI/WorldLocationClickHandler.cs.meta   |     0
+ {UI => Assets/Assets/Orgv1/UI}/MainUI.meta         |     0
+ .../UI/MainUI/CaravanDispatchWizardController.cs   |   283 +
+ .../MainUI/CaravanDispatchWizardController.cs.meta |     2 +
+ .../Assets/Orgv1/UI}/MainUI/LocationUIElement.cs   |     0
+ .../Orgv1/UI}/MainUI/LocationUIElement.cs.meta     |     0
+ .../Assets/Orgv1/UI}/MainUI/MapUIController.cs     |     8 +
+ .../Orgv1/UI}/MainUI/MapUIController.cs.meta       |     0
+ .../Assets/Orgv1/UI}/MainUI/UIWorldController.cs   |    61 +-
+ .../Orgv1/UI}/MainUI/UIWorldController.cs.meta     |     0
+ .../Assets/Orgv1/UI}/MainUI/UIWorldLayer.cs        |    64 +
+ .../Assets/Orgv1/UI}/MainUI/UIWorldLayer.cs.meta   |     0
+ {UI => Assets/Assets/Orgv1/UI}/PositionUI.meta     |     0
+ .../Assets/Orgv1/UI}/PositionUI/Activities.meta    |     0
+ .../UI}/PositionUI/Activities/ScheduleBlockUI.cs   |     0
+ .../PositionUI/Activities/ScheduleBlockUI.cs.meta  |     0
+ .../UI}/PositionUI/Activities/ScheduleDraft.cs     |     0
+ .../PositionUI/Activities/ScheduleDraft.cs.meta    |     0
+ .../Activities/ScheduleEditorController.cs         |     0
+ .../Activities/ScheduleEditorController.cs.meta    |     0
+ .../Activities/ScheduleEditorUIController.cs       |     0
+ .../Activities/ScheduleEditorUIController.cs.meta  |     0
+ .../Orgv1/UI}/PositionUI/CaravanPosition.meta      |     0
+ .../UI}/PositionUI/CaravanPosition/CaravanView.cs  |     0
+ .../PositionUI/CaravanPosition/CaravanView.cs.meta |     0
+ .../CaravanPosition/CaravanVisualManager.cs        |     0
+ .../CaravanPosition/CaravanVisualManager.cs.meta   |     0
+ .../Orgv1/UI}/PositionUI/PositionScheduleHourUI.cs |     0
+ .../UI}/PositionUI/PositionScheduleHourUI.cs.meta  |     0
+ .../Orgv1/UI}/PositionUI/UIPositionCreator.cs      |     0
+ .../Orgv1/UI}/PositionUI/UIPositionCreator.cs.meta |     0
+ .../Orgv1/UI}/PositionUI/UIPositionSchedule.cs     |     0
+ .../UI}/PositionUI/UIPositionSchedule.cs.meta      |     0
+ WRL.meta => Assets/Assets/Orgv1/WRL.meta           |     0
+ {WRL => Assets/Assets/Orgv1/WRL}/WorldRegistry.cs  |     0
+ .../Assets/Orgv1/WRL}/WorldRegistry.cs.meta        |     0
+ Assets/Assets/Orgv1/docs.meta                      |     8 +
+ {docs => Assets/Assets/Orgv1/docs}/ARCHITECTURE.md |     0
+ Assets/Assets/Orgv1/docs/ARCHITECTURE.md.meta      |     7 +
+ {docs => Assets/Assets/Orgv1/docs}/CARAVANS.md     |     0
+ Assets/Assets/Orgv1/docs/CARAVANS.md.meta          |     7 +
+ Assets/Assets/Scripts.meta                         |     8 +
+ Assets/InputSystem_Actions.inputactions            |  1057 +
+ Assets/InputSystem_Actions.inputactions.meta       |    14 +
+ Assets/Picture.meta                                |     8 +
+ Assets/Picture/Caravan.meta                        |     8 +
+ Assets/Picture/Caravan/Caravans.prefab             |   278 +
+ Assets/Picture/Caravan/Caravans.prefab.meta        |     7 +
+ .../Caravan/free-icon-camel-shape-47030.png        |   Bin 0 -> 10074 bytes
+ .../Caravan/free-icon-camel-shape-47030.png.meta   |   117 +
+ Assets/Picture/Location.meta                       |     8 +
+ Assets/Picture/Location/Ahetaton.meta              |     8 +
+ Assets/Picture/Location/Ahetaton/Free.png          |   Bin 0 -> 35257 bytes
+ Assets/Picture/Location/Ahetaton/Free.png.meta     |   117 +
+ Assets/Picture/Location/Ahetaton/Hover.png         |   Bin 0 -> 34151 bytes
+ Assets/Picture/Location/Ahetaton/Hover.png.meta    |   117 +
+ Assets/Picture/Location/ConstructionQuarry.meta    |     8 +
+ .../Picture/Location/ConstructionQuarry/Free.png   |   Bin 0 -> 7486 bytes
+ .../Location/ConstructionQuarry/Free.png.meta      |   117 +
+ .../Picture/Location/ConstructionQuarry/Hover.png  |   Bin 0 -> 7315 bytes
+ .../Location/ConstructionQuarry/Hover.png.meta     |   117 +
+ Assets/Picture/Location/CustomPoint.meta           |     8 +
+ .../Location/CustomPoint/CustomPoint.prefab        |   116 +
+ .../Location/CustomPoint/CustomPoint.prefab.meta   |     7 +
+ .../imgbin_440f023fd6edc11f48a63213d0676fa9.png    |   Bin 0 -> 14405934 bytes
+ ...mgbin_440f023fd6edc11f48a63213d0676fa9.png.meta |   117 +
+ Assets/Picture/Location/DesertQuarry.meta          |     8 +
+ Assets/Picture/Location/DesertQuarry/Free.png      |   Bin 0 -> 7555 bytes
+ Assets/Picture/Location/DesertQuarry/Free.png.meta |   117 +
+ Assets/Picture/Location/DesertQuarry/Hover.png     |   Bin 0 -> 7571 bytes
+ .../Picture/Location/DesertQuarry/Hover.png.meta   |   117 +
+ Assets/Picture/Location/DistantQuarry.meta         |     8 +
+ Assets/Picture/Location/DistantQuarry/Free.png     |   Bin 0 -> 16066 bytes
+ .../Picture/Location/DistantQuarry/Free.png.meta   |   117 +
+ Assets/Picture/Location/DistantQuarry/Hover.png    |   Bin 0 -> 15478 bytes
+ .../Picture/Location/DistantQuarry/Hover.png.meta  |   117 +
+ Assets/Picture/Location/Fields.meta                |     8 +
+ Assets/Picture/Location/Memphis.meta               |     8 +
+ Assets/Picture/Location/Memphis/Free.png           |   Bin 0 -> 7979 bytes
+ Assets/Picture/Location/Memphis/Free.png.meta      |   117 +
+ Assets/Picture/Location/Memphis/Hover.png          |   Bin 0 -> 6516 bytes
+ Assets/Picture/Location/Memphis/Hover.png.meta     |   117 +
+ Assets/Picture/Location/Per-Ramses.meta            |     8 +
+ Assets/Picture/Location/Per-Ramses/Free.png        |   Bin 0 -> 15114 bytes
+ Assets/Picture/Location/Per-Ramses/Free.png.meta   |   117 +
+ Assets/Picture/Location/Per-Ramses/Hover.png       |   Bin 0 -> 14468 bytes
+ Assets/Picture/Location/Per-Ramses/Hover.png.meta  |   117 +
+ Assets/Picture/Location/Pyramide.meta              |     8 +
+ .../Picture/Location/Pyramide/After 75% free.png   |   Bin 0 -> 12161 bytes
+ .../Location/Pyramide/After 75% free.png.meta      |   117 +
+ .../Picture/Location/Pyramide/After 75% hover.png  |   Bin 0 -> 12292 bytes
+ .../Location/Pyramide/After 75% hover.png.meta     |   117 +
+ .../Picture/Location/Pyramide/Up to 75% free.png   |   Bin 0 -> 9815 bytes
+ .../Location/Pyramide/Up to 75% free.png.meta      |   117 +
+ .../Picture/Location/Pyramide/Up to 75% hover.png  |   Bin 0 -> 9948 bytes
+ .../Location/Pyramide/Up to 75% hover.png.meta     |   117 +
+ Assets/Picture/Location/Rosetta.meta               |     8 +
+ Assets/Picture/Location/Rosetta/Free.png           |   Bin 0 -> 4595 bytes
+ Assets/Picture/Location/Rosetta/Free.png.meta      |   117 +
+ Assets/Picture/Location/Rosetta/Hover.png          |   Bin 0 -> 4590 bytes
+ Assets/Picture/Location/Rosetta/Hover.png.meta     |   117 +
+ Assets/Picture/Map.png                             |   Bin 0 -> 3119649 bytes
+ Assets/Picture/Map.png.meta                        |   117 +
+ Assets/Picture/Materials.meta                      |     8 +
+ Assets/Picture/Materials/Map.mat                   |   137 +
+ Assets/Picture/Materials/Map.mat.meta              |     8 +
+ Assets/Picture/Position.meta                       |     8 +
+ Assets/Picture/Position/Delete.png                 |   Bin 0 -> 1217 bytes
+ Assets/Picture/Position/Delete.png.meta            |   117 +
+ Assets/Picture/Position/PositionUI.prefab          |  1068 +
+ Assets/Picture/Position/PositionUI.prefab.meta     |     7 +
+ Assets/Picture/Position/blockPrefab.prefab         |  1806 +
+ Assets/Picture/Position/blockPrefab.prefab.meta    |     7 +
+ .../Picture/Position/free-icon-check-14090371.png  |   Bin 0 -> 12602 bytes
+ .../Position/free-icon-check-14090371.png.meta     |   117 +
+ .../Picture/Position/free-icon-remove-1828843.png  |   Bin 0 -> 16895 bytes
+ .../Position/free-icon-remove-1828843.png.meta     |   117 +
+ Assets/Picture/Position/pngwing.com.png            |   Bin 0 -> 701 bytes
+ Assets/Picture/Position/pngwing.com.png.meta       |   117 +
+ Assets/Readme.asset                                |    34 +
+ Assets/Readme.asset.meta                           |     8 +
+ Assets/Scenes.meta                                 |     8 +
+ Assets/Scenes/SampleScene.unity                    | 11285 +++
+ Assets/Scenes/SampleScene.unity.meta               |     7 +
+ Assets/Settings.meta                               |     8 +
+ Assets/Settings/DefaultVolumeProfile.asset         |   982 +
+ Assets/Settings/DefaultVolumeProfile.asset.meta    |     8 +
+ Assets/Settings/Mobile_RPAsset.asset               |   143 +
+ Assets/Settings/Mobile_RPAsset.asset.meta          |     8 +
+ Assets/Settings/Mobile_Renderer.asset              |    52 +
+ Assets/Settings/Mobile_Renderer.asset.meta         |     8 +
+ Assets/Settings/PC_RPAsset.asset                   |   143 +
+ Assets/Settings/PC_RPAsset.asset.meta              |     8 +
+ Assets/Settings/PC_Renderer.asset                  |    95 +
+ Assets/Settings/PC_Renderer.asset.meta             |     8 +
+ Assets/Settings/SampleSceneProfile.asset           |   159 +
+ Assets/Settings/SampleSceneProfile.asset.meta      |     8 +
+ .../UniversalRenderPipelineGlobalSettings.asset    |   449 +
+ ...niversalRenderPipelineGlobalSettings.asset.meta |     8 +
+ Assets/TextMesh Pro.meta                           |     8 +
+ Assets/TextMesh Pro/Examples & Extras.meta         |     8 +
+ Assets/TextMesh Pro/Examples & Extras/Fonts.meta   |     8 +
+ .../Examples & Extras/Fonts/Anton OFL.txt          |    93 +
+ .../Examples & Extras/Fonts/Anton OFL.txt.meta     |     8 +
+ .../TextMesh Pro/Examples & Extras/Fonts/Anton.ttf |   Bin 0 -> 42376 bytes
+ .../Examples & Extras/Fonts/Anton.ttf.meta         |    19 +
+ .../Examples & Extras/Fonts/Bangers - OFL.txt      |    93 +
+ .../Examples & Extras/Fonts/Bangers - OFL.txt.meta |     8 +
+ .../Examples & Extras/Fonts/Bangers.ttf            |   Bin 0 -> 39676 bytes
+ .../Examples & Extras/Fonts/Bangers.ttf.meta       |    19 +
+ .../Fonts/Electronic Highway Sign.TTF              |   Bin 0 -> 73060 bytes
+ .../Fonts/Electronic Highway Sign.TTF.meta         |    22 +
+ .../Examples & Extras/Fonts/Oswald-Bold - OFL.txt  |    92 +
+ .../Fonts/Oswald-Bold - OFL.txt.meta               |     8 +
+ .../Examples & Extras/Fonts/Oswald-Bold.ttf        |   Bin 0 -> 53056 bytes
+ .../Examples & Extras/Fonts/Oswald-Bold.ttf.meta   |    19 +
+ .../Examples & Extras/Fonts/Roboto-Bold - AFL.txt  |   202 +
+ .../Fonts/Roboto-Bold - AFL.txt.meta               |     8 +
+ .../Fonts/Roboto-Bold - License.txt                |     3 +
+ .../Fonts/Roboto-Bold - License.txt.meta           |     8 +
+ .../Examples & Extras/Fonts/Roboto-Bold.ttf        |   Bin 0 -> 170760 bytes
+ .../Examples & Extras/Fonts/Roboto-Bold.ttf.meta   |    22 +
+ .../Examples & Extras/Fonts/Unity - OFL.txt        |    92 +
+ .../Examples & Extras/Fonts/Unity - OFL.txt.meta   |     8 +
+ .../Examples & Extras/Fonts/Unity.asset            |   238 +
+ .../Examples & Extras/Fonts/Unity.asset.meta       |     8 +
+ .../TextMesh Pro/Examples & Extras/Fonts/Unity.ttf |   Bin 0 -> 1644 bytes
+ .../Examples & Extras/Fonts/Unity.ttf.meta         |    21 +
+ .../TextMesh Pro/Examples & Extras/Materials.meta  |     9 +
+ .../Materials/Crate - Surface Shader Scene.mat     |    84 +
+ .../Crate - Surface Shader Scene.mat.meta          |     6 +
+ .../Examples & Extras/Materials/Crate - URP.mat    |   139 +
+ .../Materials/Crate - URP.mat.meta                 |     8 +
+ .../Materials/Ground - Logo Scene.mat              |   207 +
+ .../Materials/Ground - Logo Scene.mat.meta         |     6 +
+ .../Materials/Ground - Surface Shader Scene.mat    |   112 +
+ .../Ground - Surface Shader Scene.mat.meta         |     6 +
+ .../Examples & Extras/Materials/Ground - URP.mat   |   174 +
+ .../Materials/Ground - URP.mat.meta                |     8 +
+ .../Materials/Small Crate_diffuse.mat              |   127 +
+ .../Materials/Small Crate_diffuse.mat.meta         |     8 +
+ Assets/TextMesh Pro/Examples & Extras/Prefabs.meta |     9 +
+ .../Examples & Extras/Prefabs/Text Popup.prefab    |   280 +
+ .../Prefabs/Text Popup.prefab.meta                 |     8 +
+ .../Prefabs/TextMeshPro - Prefab 1.prefab          |   219 +
+ .../Prefabs/TextMeshPro - Prefab 1.prefab.meta     |     6 +
+ .../Prefabs/TextMeshPro - Prefab 2.prefab          |   219 +
+ .../Prefabs/TextMeshPro - Prefab 2.prefab.meta     |     6 +
+ .../TextMesh Pro/Examples & Extras/Resources.meta  |     9 +
+ .../Resources/Color Gradient Presets.meta          |     8 +
+ .../Blue to Purple - Vertical.asset                |    17 +
+ .../Blue to Purple - Vertical.asset.meta           |     8 +
+ .../Dark to Light Green - Vertical.asset           |    17 +
+ .../Dark to Light Green - Vertical.asset.meta      |     8 +
+ .../Light to Dark Green - Vertical.asset           |    17 +
+ .../Light to Dark Green - Vertical.asset.meta      |     8 +
+ .../Yellow to Orange - Vertical.asset              |    17 +
+ .../Yellow to Orange - Vertical.asset.meta         |     8 +
+ .../Resources/Fonts & Materials.meta               |     9 +
+ .../Fonts & Materials/Anton SDF - Drop Shadow.mat  |   104 +
+ .../Anton SDF - Drop Shadow.mat.meta               |     8 +
+ .../Fonts & Materials/Anton SDF - Outline.mat      |   104 +
+ .../Fonts & Materials/Anton SDF - Outline.mat.meta |     8 +
+ .../Fonts & Materials/Anton SDF - Sunny Days.mat   |   104 +
+ .../Anton SDF - Sunny Days.mat.meta                |     8 +
+ .../Resources/Fonts & Materials/Anton SDF.asset    |   318 +
+ .../Fonts & Materials/Anton SDF.asset.meta         |     8 +
+ .../Bangers SDF - Drop Shadow - 2 Pass.mat         |   112 +
+ .../Bangers SDF - Drop Shadow - 2 Pass.mat.meta    |     8 +
+ .../Bangers SDF - Drop Shadow.mat                  |   110 +
+ .../Bangers SDF - Drop Shadow.mat.meta             |     8 +
+ .../Fonts & Materials/Bangers SDF - Outline.mat    |   110 +
+ .../Bangers SDF - Outline.mat.meta                 |     8 +
+ .../Fonts & Materials/Bangers SDF Glow.mat         |   113 +
+ .../Fonts & Materials/Bangers SDF Glow.mat.meta    |     8 +
+ .../Fonts & Materials/Bangers SDF Logo - URP.mat   |   151 +
+ .../Bangers SDF Logo - URP.mat.meta                |     8 +
+ .../Fonts & Materials/Bangers SDF Logo.mat         |   101 +
+ .../Fonts & Materials/Bangers SDF Logo.mat.meta    |     6 +
+ .../Resources/Fonts & Materials/Bangers SDF.asset  |   318 +
+ .../Fonts & Materials/Bangers SDF.asset.meta       |     6 +
+ .../Electronic Highway Sign SDF.asset              |   318 +
+ .../Electronic Highway Sign SDF.asset.meta         |     8 +
+ .../LiberationSans SDF - Metalic Green.mat         |   104 +
+ .../LiberationSans SDF - Metalic Green.mat.meta    |     8 +
+ .../LiberationSans SDF - Overlay.mat               |    62 +
+ .../LiberationSans SDF - Overlay.mat.meta          |     8 +
+ .../LiberationSans SDF - Soft Mask.mat             |   112 +
+ .../LiberationSans SDF - Soft Mask.mat.meta        |     8 +
+ .../Fonts & Materials/Oswald Bold SDF.asset        |   318 +
+ .../Fonts & Materials/Oswald Bold SDF.asset.meta   |     8 +
+ .../Roboto-Bold SDF - Drop Shadow.mat              |   104 +
+ .../Roboto-Bold SDF - Drop Shadow.mat.meta         |     8 +
+ .../Roboto-Bold SDF - HDRP Unlit.mat               |   191 +
+ .../Roboto-Bold SDF - HDRP Unlit.mat.meta          |     8 +
+ .../Roboto-Bold SDF - Surface.mat                  |   107 +
+ .../Roboto-Bold SDF - Surface.mat.meta             |     8 +
+ .../Fonts & Materials/Roboto-Bold SDF - URP.mat    |   157 +
+ .../Roboto-Bold SDF - URP.mat.meta                 |     8 +
+ .../Fonts & Materials/Roboto-Bold SDF.asset        | 94397 +++++++++++++++++++
+ .../Fonts & Materials/Roboto-Bold SDF.asset.meta   |     8 +
+ .../Unity SDF - HDRP LIT - Bloom.mat               |   200 +
+ .../Unity SDF - HDRP LIT - Bloom.mat.meta          |     8 +
+ .../Unity SDF - HDRP LIT - Outline.mat             |   148 +
+ .../Unity SDF - HDRP LIT - Outline.mat.meta        |     8 +
+ .../Resources/Fonts & Materials/Unity SDF.asset    |   389 +
+ .../Fonts & Materials/Unity SDF.asset.meta         |     8 +
+ .../Examples & Extras/Resources/Sprite Assets.meta |     9 +
+ .../Sprite Assets/Default Sprite Asset.asset       |   351 +
+ .../Sprite Assets/Default Sprite Asset.asset.meta  |     8 +
+ .../Resources/Sprite Assets/DropCap Numbers.asset  |   406 +
+ .../Sprite Assets/DropCap Numbers.asset.meta       |     8 +
+ Assets/TextMesh Pro/Examples & Extras/Scenes.meta  |     9 +
+ .../Scenes/01-  Single Line TextMesh Pro.unity     |   380 +
+ .../01-  Single Line TextMesh Pro.unity.meta       |    24 +
+ .../Scenes/02 - Multi-line TextMesh Pro.unity      |   384 +
+ .../Scenes/02 - Multi-line TextMesh Pro.unity.meta |    24 +
+ .../Scenes/03 - Line Justification.unity           |   896 +
+ .../Scenes/03 - Line Justification.unity.meta      |    24 +
+ .../Scenes/04 - Word Wrapping.unity                |   379 +
+ .../Scenes/04 - Word Wrapping.unity.meta           |    24 +
+ .../Examples & Extras/Scenes/05 - Style Tags.unity |  1017 +
+ .../Scenes/05 - Style Tags.unity.meta              |    24 +
+ .../Scenes/06 - Extra Rich Text Examples.unity     |   677 +
+ .../06 - Extra Rich Text Examples.unity.meta       |     6 +
+ .../07 - Superscript & Subscript Example.unity     |   383 +
+ ...07 - Superscript & Subscript Example.unity.meta |    24 +
+ .../Scenes/08 - Improved Text Alignment.unity      |   544 +
+ .../Scenes/08 - Improved Text Alignment.unity.meta |     6 +
+ .../Scenes/09 - Margin Tag Example.unity           |   945 +
+ .../Scenes/09 - Margin Tag Example.unity.meta      |     8 +
+ .../10 - Bullets & Numbered List Example.unity     |   665 +
+ ...10 - Bullets & Numbered List Example.unity.meta |     8 +
+ .../Scenes/11 - The Style Tag.unity                |   554 +
+ .../Scenes/11 - The Style Tag.unity.meta           |     8 +
+ .../Scenes/12 - Link Example.unity                 |   779 +
+ .../Scenes/12 - Link Example.unity.meta            |     8 +
+ .../Scenes/12a - Text Interactions.unity           |   807 +
+ .../Scenes/12a - Text Interactions.unity.meta      |     8 +
+ .../Scenes/13 - Soft Hyphenation.unity             |   507 +
+ .../Scenes/13 - Soft Hyphenation.unity.meta        |     8 +
+ .../Scenes/14 - Multi Font & Sprites.unity         |   544 +
+ .../Scenes/14 - Multi Font & Sprites.unity.meta    |     8 +
+ .../Scenes/15 - Inline Graphics & Sprites.unity    |   595 +
+ .../15 - Inline Graphics & Sprites.unity.meta      |     6 +
+ .../16 - Linked text overflow mode example.unity   |  1063 +
+ ... - Linked text overflow mode example.unity.meta |     8 +
+ .../Scenes/17 - Old Computer Terminal.unity        |   691 +
+ .../Scenes/17 - Old Computer Terminal.unity.meta   |     8 +
+ .../18 - ScrollRect & Masking & Layout.unity       |  9490 ++
+ .../18 - ScrollRect & Masking & Layout.unity.meta  |     8 +
+ .../Scenes/19 - Masking Texture & Soft Mask.unity  |   604 +
+ .../19 - Masking Texture & Soft Mask.unity.meta    |     8 +
+ .../Scenes/20 - Input Field with Scrollbar.unity   |  2242 +
+ .../20 - Input Field with Scrollbar.unity.meta     |     8 +
+ .../Scenes/21 - Script Example.unity               |   239 +
+ .../Scenes/21 - Script Example.unity.meta          |    24 +
+ .../Scenes/22 - Basic Scripting Example.unity      |   447 +
+ .../Scenes/22 - Basic Scripting Example.unity.meta |     8 +
+ .../Scenes/23 - Animating Vertex Attributes.unity  |   520 +
+ .../23 - Animating Vertex Attributes.unity.meta    |     8 +
+ .../Scenes/24 - Surface Shader Example URP.unity   |  3160 +
+ .../24 - Surface Shader Example URP.unity.meta     |    24 +
+ .../Scenes/24 - Surface Shader Example.unity       |  2687 +
+ .../Scenes/24 - Surface Shader Example.unity.meta  |    24 +
+ .../Scenes/25 - Sunny Days Example.unity           |   615 +
+ .../Scenes/25 - Sunny Days Example.unity.meta      |     8 +
+ .../Scenes/26 - Dropdown Placeholder Example.unity |  3418 +
+ .../26 - Dropdown Placeholder Example.unity.meta   |     7 +
+ .../Scenes/27 - Double Pass Shader Example.unity   |   550 +
+ .../27 - Double Pass Shader Example.unity.meta     |     7 +
+ .../Scenes/28 - HDRP Shader Example.meta           |     8 +
+ .../Scenes/28 - HDRP Shader Example.unity          |  2262 +
+ .../Scenes/28 - HDRP Shader Example.unity.meta     |     7 +
+ .../Sky and Fog Volume Profile.asset               |    60 +
+ .../Sky and Fog Volume Profile.asset.meta          |     8 +
+ .../Scenes/Benchmark (Floating Text).unity         |   429 +
+ .../Scenes/Benchmark (Floating Text).unity.meta    |    24 +
+ Assets/TextMesh Pro/Examples & Extras/Scripts.meta |     9 +
+ .../Examples & Extras/Scripts/Benchmark01.cs       |   128 +
+ .../Examples & Extras/Scripts/Benchmark01.cs.meta  |    10 +
+ .../Examples & Extras/Scripts/Benchmark01_UGUI.cs  |   135 +
+ .../Scripts/Benchmark01_UGUI.cs.meta               |    10 +
+ .../Examples & Extras/Scripts/Benchmark02.cs       |    97 +
+ .../Examples & Extras/Scripts/Benchmark02.cs.meta  |    11 +
+ .../Examples & Extras/Scripts/Benchmark03.cs       |    92 +
+ .../Examples & Extras/Scripts/Benchmark03.cs.meta  |    11 +
+ .../Examples & Extras/Scripts/Benchmark04.cs       |    85 +
+ .../Examples & Extras/Scripts/Benchmark04.cs.meta  |    11 +
+ .../Examples & Extras/Scripts/CameraController.cs  |   292 +
+ .../Scripts/CameraController.cs.meta               |    10 +
+ .../Examples & Extras/Scripts/ChatController.cs    |    51 +
+ .../Scripts/ChatController.cs.meta                 |    12 +
+ .../Examples & Extras/Scripts/DropdownSample.cs    |    19 +
+ .../Scripts/DropdownSample.cs.meta                 |    11 +
+ .../Examples & Extras/Scripts/EnvMapAnimator.cs    |    35 +
+ .../Scripts/EnvMapAnimator.cs.meta                 |    12 +
+ .../Examples & Extras/Scripts/ObjectSpin.cs        |    67 +
+ .../Examples & Extras/Scripts/ObjectSpin.cs.meta   |    10 +
+ .../Scripts/ShaderPropAnimator.cs                  |    51 +
+ .../Scripts/ShaderPropAnimator.cs.meta             |    10 +
+ .../Examples & Extras/Scripts/SimpleScript.cs      |    58 +
+ .../Examples & Extras/Scripts/SimpleScript.cs.meta |    10 +
+ .../Examples & Extras/Scripts/SkewTextExample.cs   |   158 +
+ .../Scripts/SkewTextExample.cs.meta                |    12 +
+ .../Scripts/TMP_DigitValidator.cs                  |    27 +
+ .../Scripts/TMP_DigitValidator.cs.meta             |    12 +
+ .../Scripts/TMP_ExampleScript_01.cs                |    64 +
+ .../Scripts/TMP_ExampleScript_01.cs.meta           |    12 +
+ .../Scripts/TMP_FrameRateCounter.cs                |   134 +
+ .../Scripts/TMP_FrameRateCounter.cs.meta           |    10 +
+ .../Scripts/TMP_PhoneNumberValidator.cs            |   105 +
+ .../Scripts/TMP_PhoneNumberValidator.cs.meta       |    12 +
+ .../Scripts/TMP_TextEventCheck.cs                  |    73 +
+ .../Scripts/TMP_TextEventCheck.cs.meta             |    12 +
+ .../Scripts/TMP_TextEventHandler.cs                |   263 +
+ .../Scripts/TMP_TextEventHandler.cs.meta           |    12 +
+ .../Scripts/TMP_TextInfoDebugTool.cs               |   652 +
+ .../Scripts/TMP_TextInfoDebugTool.cs.meta          |    12 +
+ .../Scripts/TMP_TextSelector_A.cs                  |   157 +
+ .../Scripts/TMP_TextSelector_A.cs.meta             |    12 +
+ .../Scripts/TMP_TextSelector_B.cs                  |   547 +
+ .../Scripts/TMP_TextSelector_B.cs.meta             |    14 +
+ .../Scripts/TMP_UiFrameRateCounter.cs              |   125 +
+ .../Scripts/TMP_UiFrameRateCounter.cs.meta         |    12 +
+ .../Scripts/TMPro_InstructionOverlay.cs            |    84 +
+ .../Scripts/TMPro_InstructionOverlay.cs.meta       |    10 +
+ .../Examples & Extras/Scripts/TeleType.cs          |    83 +
+ .../Examples & Extras/Scripts/TeleType.cs.meta     |    10 +
+ .../Scripts/TextConsoleSimulator.cs                |   121 +
+ .../Scripts/TextConsoleSimulator.cs.meta           |    12 +
+ .../Scripts/TextMeshProFloatingText.cs             |   223 +
+ .../Scripts/TextMeshProFloatingText.cs.meta        |    11 +
+ .../Examples & Extras/Scripts/TextMeshSpawner.cs   |    79 +
+ .../Scripts/TextMeshSpawner.cs.meta                |    11 +
+ .../Examples & Extras/Scripts/VertexColorCycler.cs |    84 +
+ .../Scripts/VertexColorCycler.cs.meta              |    12 +
+ .../Examples & Extras/Scripts/VertexJitter.cs      |   175 +
+ .../Examples & Extras/Scripts/VertexJitter.cs.meta |    12 +
+ .../Examples & Extras/Scripts/VertexShakeA.cs      |   161 +
+ .../Examples & Extras/Scripts/VertexShakeA.cs.meta |    12 +
+ .../Examples & Extras/Scripts/VertexShakeB.cs      |   185 +
+ .../Examples & Extras/Scripts/VertexShakeB.cs.meta |    12 +
+ .../Examples & Extras/Scripts/VertexZoom.cs        |   192 +
+ .../Examples & Extras/Scripts/VertexZoom.cs.meta   |    12 +
+ .../Examples & Extras/Scripts/WarpTextExample.cs   |   144 +
+ .../Scripts/WarpTextExample.cs.meta                |    12 +
+ Assets/TextMesh Pro/Examples & Extras/Sprites.meta |     9 +
+ .../Examples & Extras/Sprites/Default Sprites.png  |   Bin 0 -> 178491 bytes
+ .../Sprites/Default Sprites.png.meta               |   437 +
+ .../Examples & Extras/Sprites/DropCap Numbers.psd  |   Bin 0 -> 482546 bytes
+ .../Sprites/DropCap Numbers.psd.meta               |   166 +
+ .../TextMesh Pro/Examples & Extras/Textures.meta   |     9 +
+ .../Examples & Extras/Textures/Brushed Metal 3.jpg |   Bin 0 -> 28175 bytes
+ .../Textures/Brushed Metal 3.jpg.meta              |    53 +
+ .../Examples & Extras/Textures/Floor Cement.jpg    |   Bin 0 -> 71537 bytes
+ .../Textures/Floor Cement.jpg.meta                 |    53 +
+ .../Textures/Floor Tiles 1 - diffuse.jpg           |   Bin 0 -> 155648 bytes
+ .../Textures/Floor Tiles 1 - diffuse.jpg.meta      |    53 +
+ .../Textures/Fruit Jelly (B&W).jpg                 |   Bin 0 -> 150089 bytes
+ .../Textures/Fruit Jelly (B&W).jpg.meta            |    53 +
+ .../Textures/Gradient Diagonal (Color).jpg         |   Bin 0 -> 11688 bytes
+ .../Textures/Gradient Diagonal (Color).jpg.meta    |    57 +
+ .../Textures/Gradient Horizontal (Color).jpg       |   Bin 0 -> 11341 bytes
+ .../Textures/Gradient Horizontal (Color).jpg.meta  |    53 +
+ .../Textures/Gradient Vertical (Color).jpg         |   Bin 0 -> 11336 bytes
+ .../Textures/Gradient Vertical (Color).jpg.meta    |    53 +
+ .../Examples & Extras/Textures/Mask Zig-n-Zag.psd  |   Bin 0 -> 38488 bytes
+ .../Textures/Mask Zig-n-Zag.psd.meta               |    56 +
+ .../Textures/Small Crate_diffuse.jpg               |   Bin 0 -> 95326 bytes
+ .../Textures/Small Crate_diffuse.jpg.meta          |   132 +
+ .../Textures/Small Crate_normal.jpg                |   Bin 0 -> 126976 bytes
+ .../Textures/Small Crate_normal.jpg.meta           |   132 +
+ .../Textures/Sunny Days - Seamless.jpg             |   Bin 0 -> 273488 bytes
+ .../Textures/Sunny Days - Seamless.jpg.meta        |   132 +
+ .../Text Overflow - Linked Text Image 1.png        |   Bin 0 -> 26169 bytes
+ .../Text Overflow - Linked Text Image 1.png.meta   |    59 +
+ .../Text Overflow - Linked Text UI Screenshot.png  |   Bin 0 -> 49290 bytes
+ ...t Overflow - Linked Text UI Screenshot.png.meta |    59 +
+ .../Textures/Wipe Pattern - Circle.psd             |   Bin 0 -> 32696 bytes
+ .../Textures/Wipe Pattern - Circle.psd.meta        |    59 +
+ .../Textures/Wipe Pattern - Diagonal.psd           |   Bin 0 -> 33064 bytes
+ .../Textures/Wipe Pattern - Diagonal.psd.meta      |    58 +
+ .../Textures/Wipe Pattern - Radial Double.psd      |   Bin 0 -> 33155 bytes
+ .../Textures/Wipe Pattern - Radial Double.psd.meta |    58 +
+ .../Textures/Wipe Pattern - Radial Quad.psd        |   Bin 0 -> 34433 bytes
+ .../Textures/Wipe Pattern - Radial Quad.psd.meta   |    59 +
+ Assets/TextMesh Pro/Fonts.meta                     |     8 +
+ Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt |    46 +
+ .../Fonts/LiberationSans - OFL.txt.meta            |     8 +
+ Assets/TextMesh Pro/Fonts/LiberationSans.ttf       |   Bin 0 -> 350200 bytes
+ Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta  |    19 +
+ Assets/TextMesh Pro/Resources.meta                 |     8 +
+ .../TextMesh Pro/Resources/Fonts & Materials.meta  |     9 +
+ .../LiberationSans SDF - Drop Shadow.mat           |   106 +
+ .../LiberationSans SDF - Drop Shadow.mat.meta      |     8 +
+ .../LiberationSans SDF - Fallback.asset            |  2929 +
+ .../LiberationSans SDF - Fallback.asset.meta       |     8 +
+ .../LiberationSans SDF - Outline.mat               |   104 +
+ .../LiberationSans SDF - Outline.mat.meta          |     8 +
+ .../Fonts & Materials/LiberationSans SDF.asset     |  8094 ++
+ .../LiberationSans SDF.asset.meta                  |     8 +
+ .../LineBreaking Following Characters.txt          |     1 +
+ .../LineBreaking Following Characters.txt.meta     |     8 +
+ .../Resources/LineBreaking Leading Characters.txt  |     1 +
+ .../LineBreaking Leading Characters.txt.meta       |     8 +
+ Assets/TextMesh Pro/Resources/Style Sheets.meta    |     9 +
+ .../Style Sheets/Default Style Sheet.asset         |    81 +
+ .../Style Sheets/Default Style Sheet.asset.meta    |     8 +
+ Assets/TextMesh Pro/Resources/TMP Settings.asset   |    50 +
+ .../TextMesh Pro/Resources/TMP Settings.asset.meta |     8 +
+ Assets/TextMesh Pro/Shaders.meta                   |     8 +
+ Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl      |   178 +
+ Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl.meta |    10 +
+ .../Shaders/TMP_Bitmap-Custom-Atlas.shader         |   145 +
+ .../Shaders/TMP_Bitmap-Custom-Atlas.shader.meta    |     9 +
+ .../TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader  |   155 +
+ .../Shaders/TMP_Bitmap-Mobile.shader.meta          |     9 +
+ Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader      |   145 +
+ Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta |     9 +
+ Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader |   326 +
+ .../Shaders/TMP_SDF Overlay.shader.meta            |     9 +
+ Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader     |   321 +
+ .../TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta   |     9 +
+ .../Shaders/TMP_SDF-HDRP LIT.shadergraph           | 12074 +++
+ .../Shaders/TMP_SDF-HDRP LIT.shadergraph.meta      |    10 +
+ .../Shaders/TMP_SDF-HDRP UNLIT.shadergraph         | 11759 +++
+ .../Shaders/TMP_SDF-HDRP UNLIT.shadergraph.meta    |    10 +
+ .../Shaders/TMP_SDF-Mobile Masking.shader          |   258 +
+ .../Shaders/TMP_SDF-Mobile Masking.shader.meta     |     9 +
+ .../Shaders/TMP_SDF-Mobile Overlay.shader          |   252 +
+ .../Shaders/TMP_SDF-Mobile Overlay.shader.meta     |     9 +
+ .../TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader |   106 +
+ .../Shaders/TMP_SDF-Mobile SSD.shader.meta         |     9 +
+ .../Shaders/TMP_SDF-Mobile-2-Pass.shader           |   389 +
+ .../Shaders/TMP_SDF-Mobile-2-Pass.shader.meta      |     9 +
+ Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader  |   250 +
+ .../Shaders/TMP_SDF-Mobile.shader.meta             |     9 +
+ .../Shaders/TMP_SDF-Surface-Mobile.shader          |   139 +
+ .../Shaders/TMP_SDF-Surface-Mobile.shader.meta     |     9 +
+ Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader |   159 +
+ .../Shaders/TMP_SDF-Surface.shader.meta            |     9 +
+ .../Shaders/TMP_SDF-URP Lit.shadergraph            | 11932 +++
+ .../Shaders/TMP_SDF-URP Lit.shadergraph.meta       |    10 +
+ .../Shaders/TMP_SDF-URP Unlit.shadergraph          | 11629 +++
+ .../Shaders/TMP_SDF-URP Unlit.shadergraph.meta     |    10 +
+ Assets/TextMesh Pro/Shaders/TMP_SDF.shader         |   326 +
+ Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta    |     9 +
+ Assets/TextMesh Pro/Shaders/TMP_Sprite.shader      |   131 +
+ Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta |     9 +
+ Assets/TextMesh Pro/Shaders/TMPro.cginc            |    84 +
+ Assets/TextMesh Pro/Shaders/TMPro.cginc.meta       |     9 +
+ Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc     |   165 +
+ .../TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta   |     9 +
+ Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc |    80 +
+ .../Shaders/TMPro_Properties.cginc.meta            |     9 +
+ Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc    |    99 +
+ .../TextMesh Pro/Shaders/TMPro_Surface.cginc.meta  |     9 +
+ Assets/TutorialInfo.meta                           |     8 +
+ Assets/TutorialInfo/Icons.meta                     |     9 +
+ Assets/TutorialInfo/Icons/URP.png                  |   Bin 0 -> 24069 bytes
+ Assets/TutorialInfo/Icons/URP.png.meta             |   134 +
+ Assets/TutorialInfo/Layout.wlt                     |   654 +
+ Assets/TutorialInfo/Layout.wlt.meta                |     8 +
+ Assets/TutorialInfo/Scripts.meta                   |     9 +
+ Assets/TutorialInfo/Scripts/Editor.meta            |     9 +
+ Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs |   242 +
+ .../Scripts/Editor/ReadmeEditor.cs.meta            |    12 +
+ Assets/TutorialInfo/Scripts/Readme.cs              |    16 +
+ Assets/TutorialInfo/Scripts/Readme.cs.meta         |    12 +
+ Documentation/CaravanSystem/DesignNotes.md         |   246 -
+ PROJECT_FILE_LIST.txt                              |   Bin 17598 -> 0 bytes
+ Packages/manifest.json                             |    51 +
+ Packages/packages-lock.json                        |   524 +
+ ProjectSettings/AudioManager.asset                 |    19 +
+ ProjectSettings/ClusterInputManager.asset          |     6 +
+ ProjectSettings/DynamicsManager.asset              |    36 +
+ ProjectSettings/EditorBuildSettings.asset          |     9 +
+ ProjectSettings/EditorSettings.asset               |    53 +
+ ProjectSettings/GraphicsSettings.asset             |    80 +
+ ProjectSettings/InputManager.asset                 |   487 +
+ ProjectSettings/MemorySettings.asset               |    35 +
+ ProjectSettings/MultiplayerManager.asset           |     7 +
+ ProjectSettings/NavMeshAreas.asset                 |    91 +
+ ProjectSettings/PackageManagerSettings.asset       |    44 +
+ .../Packages/com.unity.ai.assistant/Settings.json  |    11 +
+ ProjectSettings/Physics2DSettings.asset            |    56 +
+ ProjectSettings/PhysicsCoreProjectSettings2D.asset |     6 +
+ ProjectSettings/PresetManager.asset                |     7 +
+ ProjectSettings/ProjectSettings.asset              |   948 +
+ ProjectSettings/ProjectVersion.txt                 |     2 +
+ ProjectSettings/QualitySettings.asset              |   134 +
+ ProjectSettings/SceneTemplateSettings.json         |   121 +
+ ProjectSettings/ShaderGraphSettings.asset          |    19 +
+ ProjectSettings/TagManager.asset                   |    76 +
+ ProjectSettings/TimeManager.asset                  |     9 +
+ ProjectSettings/URPProjectSettings.asset           |    16 +
+ ProjectSettings/UnityConnectSettings.asset         |    40 +
+ ProjectSettings/VFXManager.asset                   |    12 +
+ ProjectSettings/VersionControlSettings.asset       |     7 +
+ ProjectSettings/XRSettings.asset                   |    10 +
+ 801 files changed, 253235 insertions(+), 599 deletions(-)
+
+=== WORKING TREE STATUS ===
+## integration/full-unity-project
+A  .gitignore
+A  .vscode/extensions.json
+A  .vscode/launch.json
+A  .vscode/settings.json
+A  Assets/Assets.meta
+A  Assets/Assets/Orgv1.meta
+A  Assets/Assets/Orgv1/.gitattributes
+R  Behavior.meta -> Assets/Assets/Orgv1/Behavior.meta
+R  Behavior/Graph.meta -> Assets/Assets/Orgv1/Behavior/Graph.meta
+R  Behavior/Graph/GlobalStockHistory.cs -> Assets/Assets/Orgv1/Behavior/Graph/GlobalStockHistory.cs
+R  Behavior/Graph/GlobalStockHistory.cs.meta -> Assets/Assets/Orgv1/Behavior/Graph/GlobalStockHistory.cs.meta
+R  Behavior/Graph/ObjectStockHistory.cs -> Assets/Assets/Orgv1/Behavior/Graph/ObjectStockHistory.cs
+R  Behavior/Graph/ObjectStockHistory.cs.meta -> Assets/Assets/Orgv1/Behavior/Graph/ObjectStockHistory.cs.meta
+R  Behavior/Graph/Statistics.cs -> Assets/Assets/Orgv1/Behavior/Graph/Statistics.cs
+R  Behavior/Graph/Statistics.cs.meta -> Assets/Assets/Orgv1/Behavior/Graph/Statistics.cs.meta
+R  Behavior/Graph/StockSnapshot.cs -> Assets/Assets/Orgv1/Behavior/Graph/StockSnapshot.cs
+R  Behavior/Graph/StockSnapshot.cs.meta -> Assets/Assets/Orgv1/Behavior/Graph/StockSnapshot.cs.meta
+R  Behavior/Position.meta -> Assets/Assets/Orgv1/Behavior/Position.meta
+A  Assets/Assets/Orgv1/Behavior/Position/CaravanDisbandDestinationService.cs
+A  Assets/Assets/Orgv1/Behavior/Position/CaravanDisbandDestinationService.cs.meta
+A  Assets/Assets/Orgv1/Behavior/Position/CaravanDispatchAttemptRecord.cs
+A  Assets/Assets/Orgv1/Behavior/Position/CaravanDispatchAttemptRecord.cs.meta
+A  Assets/Assets/Orgv1/Behavior/Position/CaravanDispatchOrder.cs
+A  Assets/Assets/Orgv1/Behavior/Position/CaravanDispatchOrder.cs.meta
+A  Assets/Assets/Orgv1/Behavior/Position/CaravanDispatchOrderDraft.cs
+A  Assets/Assets/Orgv1/Behavior/Position/CaravanDispatchOrderDraft.cs.meta
+A  Assets/Assets/Orgv1/Behavior/Position/CaravanDispatchOrderValidationResult.cs
+A  Assets/Assets/Orgv1/Behavior/Position/CaravanDispatchOrderValidationResult.cs.meta
+A  Assets/Assets/Orgv1/Behavior/Position/CaravanInitialCargoTransferService.cs
+A  Assets/Assets/Orgv1/Behavior/Position/CaravanInitialCargoTransferService.cs.meta
+R  Behavior/Position/CaravanPosition.cs -> Assets/Assets/Orgv1/Behavior/Position/CaravanPosition.cs
+R  Behavior/Position/CaravanPosition.cs.meta -> Assets/Assets/Orgv1/Behavior/Position/CaravanPosition.cs.meta
+R  Behavior/Position/CaravanRoute.cs -> Assets/Assets/Orgv1/Behavior/Position/CaravanRoute.cs
+R  Behavior/Position/CaravanRoute.cs.meta -> Assets/Assets/Orgv1/Behavior/Position/CaravanRoute.cs.meta
+R  Behavior/Position/CaravanRouteStep.cs -> Assets/Assets/Orgv1/Behavior/Position/CaravanRouteStep.cs
+R  Behavior/Position/CaravanRouteStep.cs.meta -> Assets/Assets/Orgv1/Behavior/Position/CaravanRouteStep.cs.meta
+R  Behavior/Position/CaravanState.cs -> Assets/Assets/Orgv1/Behavior/Position/CaravanState.cs
+R  Behavior/Position/CaravanState.cs.meta -> Assets/Assets/Orgv1/Behavior/Position/CaravanState.cs.meta
+A  Assets/Assets/Orgv1/Behavior/Position/Diagnostics.meta
+A  Assets/Assets/Orgv1/Behavior/Position/Diagnostics/PositionRemovalDiagnosticHistory.cs
+A  Assets/Assets/Orgv1/Behavior/Position/Diagnostics/PositionRemovalDiagnosticHistory.cs.meta
+A  Assets/Assets/Orgv1/Behavior/Position/Diagnostics/PositionRemovalDiagnosticRecord.cs
+A  Assets/Assets/Orgv1/Behavior/Position/Diagnostics/PositionRemovalDiagnosticRecord.cs.meta
+A  Assets/Assets/Orgv1/Behavior/Position/Diagnostics/PositionRemovalDiagnosticTypes.cs
+A  Assets/Assets/Orgv1/Behavior/Position/Diagnostics/PositionRemovalDiagnosticTypes.cs.meta
+A  Assets/Assets/Orgv1/Behavior/Position/DispatchRecoveryService.cs
+A  Assets/Assets/Orgv1/Behavior/Position/DispatchRecoveryService.cs.meta
+R  Behavior/Position/Position.cs -> Assets/Assets/Orgv1/Behavior/Position/Position.cs
+R  Behavior/Position/Position.cs.meta -> Assets/Assets/Orgv1/Behavior/Position/Position.cs.meta
+A  Assets/Assets/Orgv1/Behavior/Position/PositionContentTransferService.cs
+A  Assets/Assets/Orgv1/Behavior/Position/PositionContentTransferService.cs.meta
+A  Assets/Assets/Orgv1/Behavior/Position/PositionRemovalService.cs
+A  Assets/Assets/Orgv1/Behavior/Position/PositionRemovalService.cs.meta
+R  DefaultGeneric.meta -> Assets/Assets/Orgv1/DefaultGeneric.meta
+R  DefaultGeneric/DefaultLocations.cs -> Assets/Assets/Orgv1/DefaultGeneric/DefaultLocations.cs
+R  DefaultGeneric/DefaultLocations.cs.meta -> Assets/Assets/Orgv1/DefaultGeneric/DefaultLocations.cs.meta
+R  DefaultGeneric/GameInitializer.cs -> Assets/Assets/Orgv1/DefaultGeneric/GameInitializer.cs
+R  DefaultGeneric/GameInitializer.cs.meta -> Assets/Assets/Orgv1/DefaultGeneric/GameInitializer.cs.meta
+R  DefaultGeneric/WorldLocationBinder.cs -> Assets/Assets/Orgv1/DefaultGeneric/WorldLocationBinder.cs
+R  DefaultGeneric/WorldLocationBinder.cs.meta -> Assets/Assets/Orgv1/DefaultGeneric/WorldLocationBinder.cs.meta
+A  Assets/Assets/Orgv1/DefaultGeneric/WorldLocationVisualFactory.cs
+A  Assets/Assets/Orgv1/DefaultGeneric/WorldLocationVisualFactory.cs.meta
+R  Documentation.meta -> Assets/Assets/Orgv1/Documentation.meta
+R  Documentation/CaravanSystem.meta -> Assets/Assets/Orgv1/Documentation/CaravanSystem.meta
+A  Assets/Assets/Orgv1/Documentation/CaravanSystem/DesignNotes.md
+R  Documentation/CaravanSystem/DesignNotes.md.meta -> Assets/Assets/Orgv1/Documentation/CaravanSystem/DesignNotes.md.meta
+A  Assets/Assets/Orgv1/Documentation/CaravanSystem/TestRunLog.md
+A  Assets/Assets/Orgv1/Documentation/CaravanSystem/TestRunLog.md.meta
+A  Assets/Assets/Orgv1/Documentation/UI.meta
+A  Assets/Assets/Orgv1/Documentation/UI/README.md
+A  Assets/Assets/Orgv1/Documentation/UI/README.md.meta
+A  Assets/Assets/Orgv1/Documentation/UI/Screenshots.meta
+A  Assets/Assets/Orgv1/Documentation/UI/Screenshots/.gitkeep
+A  Assets/Assets/Orgv1/Documentation/UI/Screenshots/UI_Screenshot_UnityEditor_20261119_124825_160.png
+A  Assets/Assets/Orgv1/Documentation/UI/Screenshots/UI_Screenshot_UnityEditor_20261119_124825_160.png.meta
+A  Assets/Assets/Orgv1/Editor.meta
+A  Assets/Assets/Orgv1/Editor/UIScreenshotCaptureWindow.cs
+A  Assets/Assets/Orgv1/Editor/UIScreenshotCaptureWindow.cs.meta
+R  Entities.meta -> Assets/Assets/Orgv1/Entities.meta
+R  Entities/Activities.meta -> Assets/Assets/Orgv1/Entities/Activities.meta
+R  Entities/Activities/Activity.cs -> Assets/Assets/Orgv1/Entities/Activities/Activity.cs
+R  Entities/Activities/Activity.cs.meta -> Assets/Assets/Orgv1/Entities/Activities/Activity.cs.meta
+R  Entities/Activities/BuildIrrigationActivity.cs -> Assets/Assets/Orgv1/Entities/Activities/BuildIrrigationActivity.cs
+R  Entities/Activities/BuildIrrigationActivity.cs.meta -> Assets/Assets/Orgv1/Entities/Activities/BuildIrrigationActivity.cs.meta
+R  Entities/Activities/BuildPyramidActivity.cs -> Assets/Assets/Orgv1/Entities/Activities/BuildPyramidActivity.cs
+R  Entities/Activities/BuildPyramidActivity.cs.meta -> Assets/Assets/Orgv1/Entities/Activities/BuildPyramidActivity.cs.meta
+R  Entities/Activities/CleanIrrigationActivity.cs -> Assets/Assets/Orgv1/Entities/Activities/CleanIrrigationActivity.cs
+R  Entities/Activities/CleanIrrigationActivity.cs.meta -> Assets/Assets/Orgv1/Entities/Activities/CleanIrrigationActivity.cs.meta
+R  Entities/Activities/CultivateFieldActivity.cs -> Assets/Assets/Orgv1/Entities/Activities/CultivateFieldActivity.cs
+R  Entities/Activities/CultivateFieldActivity.cs.meta -> Assets/Assets/Orgv1/Entities/Activities/CultivateFieldActivity.cs.meta
+R  Entities/Activities/ExchangeActivity.cs -> Assets/Assets/Orgv1/Entities/Activities/ExchangeActivity.cs
+R  Entities/Activities/ExchangeActivity.cs.meta -> Assets/Assets/Orgv1/Entities/Activities/ExchangeActivity.cs.meta
+R  Entities/Activities/GrowFoodActivity.cs -> Assets/Assets/Orgv1/Entities/Activities/GrowFoodActivity.cs
+R  Entities/Activities/GrowFoodActivity.cs.meta -> Assets/Assets/Orgv1/Entities/Activities/GrowFoodActivity.cs.meta
+R  Entities/Activities/HireUnemployedActivity.cs -> Assets/Assets/Orgv1/Entities/Activities/HireUnemployedActivity.cs
+R  Entities/Activities/HireUnemployedActivity.cs.meta -> Assets/Assets/Orgv1/Entities/Activities/HireUnemployedActivity.cs.meta
+R  Entities/Activities/MineResourcesActivity.cs -> Assets/Assets/Orgv1/Entities/Activities/MineResourcesActivity.cs
+R  Entities/Activities/MineResourcesActivity.cs.meta -> Assets/Assets/Orgv1/Entities/Activities/MineResourcesActivity.cs.meta
+R  Entities/Activities/ProcessResourcesActivity.cs -> Assets/Assets/Orgv1/Entities/Activities/ProcessResourcesActivity.cs
+R  Entities/Activities/ProcessResourcesActivity.cs.meta -> Assets/Assets/Orgv1/Entities/Activities/ProcessResourcesActivity.cs.meta
+R  Entities/Activities/ResourceSearchActivity.cs -> Assets/Assets/Orgv1/Entities/Activities/ResourceSearchActivity.cs
+R  Entities/Activities/ResourceSearchActivity.cs.meta -> Assets/Assets/Orgv1/Entities/Activities/ResourceSearchActivity.cs.meta
+R  Entities/Activities/ResourceTransferActivity.meta -> Assets/Assets/Orgv1/Entities/Activities/ResourceTransferActivity.meta
+R  Entities/Activities/ResourceTransferActivity/LocationToPositionTransferActivity.cs -> Assets/Assets/Orgv1/Entities/Activities/ResourceTransferActivity/LocationToPositionTransferActivity.cs
+R  Entities/Activities/ResourceTransferActivity/LocationToPositionTransferActivity.cs.meta -> Assets/Assets/Orgv1/Entities/Activities/ResourceTransferActivity/LocationToPositionTransferActivity.cs.meta
+R  Entities/Activities/ResourceTransferActivity/PositionToLocationTransferActivity.cs -> Assets/Assets/Orgv1/Entities/Activities/ResourceTransferActivity/PositionToLocationTransferActivity.cs
+R  Entities/Activities/ResourceTransferActivity/PositionToLocationTransferActivity.cs.meta -> Assets/Assets/Orgv1/Entities/Activities/ResourceTransferActivity/PositionToLocationTransferActivity.cs.meta
+R  Entities/Activities/ResourceTransferActivity/PositionToPositionTransferActivity.cs -> Assets/Assets/Orgv1/Entities/Activities/ResourceTransferActivity/PositionToPositionTransferActivity.cs
+R  Entities/Activities/ResourceTransferActivity/PositionToPositionTransferActivity.cs.meta -> Assets/Assets/Orgv1/Entities/Activities/ResourceTransferActivity/PositionToPositionTransferActivity.cs.meta
+R  Entities/Activities/ResourceTransferActivity/ResourceTransferActivity.cs -> Assets/Assets/Orgv1/Entities/Activities/ResourceTransferActivity/ResourceTransferActivity.cs
+R  Entities/Activities/ResourceTransferActivity/ResourceTransferActivity.cs.meta -> Assets/Assets/Orgv1/Entities/Activities/ResourceTransferActivity/ResourceTransferActivity.cs.meta
+R  Entities/Activities/RestActivity.cs -> Assets/Assets/Orgv1/Entities/Activities/RestActivity.cs
+R  Entities/Activities/RestActivity.cs.meta -> Assets/Assets/Orgv1/Entities/Activities/RestActivity.cs.meta
+R  Entities/Activities/SendCaravanActivity.cs -> Assets/Assets/Orgv1/Entities/Activities/SendCaravanActivity.cs
+R  Entities/Activities/SendCaravanActivity.cs.meta -> Assets/Assets/Orgv1/Entities/Activities/SendCaravanActivity.cs.meta
+R  Entities/Activities/SurveyResourcesActivity.cs -> Assets/Assets/Orgv1/Entities/Activities/SurveyResourcesActivity.cs
+R  Entities/Activities/SurveyResourcesActivity.cs.meta -> Assets/Assets/Orgv1/Entities/Activities/SurveyResourcesActivity.cs.meta
+R  Entities/IDGenerator.cs -> Assets/Assets/Orgv1/Entities/IDGenerator.cs
+R  Entities/IDGenerator.cs.meta -> Assets/Assets/Orgv1/Entities/IDGenerator.cs.meta
+R  Entities/Objects.meta -> Assets/Assets/Orgv1/Entities/Objects.meta
+R  Entities/Objects/City.cs -> Assets/Assets/Orgv1/Entities/Objects/City.cs
+R  Entities/Objects/City.cs.meta -> Assets/Assets/Orgv1/Entities/Objects/City.cs.meta
+R  Entities/Objects/CustomPoint.cs -> Assets/Assets/Orgv1/Entities/Objects/CustomPoint.cs
+R  Entities/Objects/CustomPoint.cs.meta -> Assets/Assets/Orgv1/Entities/Objects/CustomPoint.cs.meta
+R  Entities/Objects/Field.cs -> Assets/Assets/Orgv1/Entities/Objects/Field.cs
+R  Entities/Objects/Field.cs.meta -> Assets/Assets/Orgv1/Entities/Objects/Field.cs.meta
+R  Entities/Objects/MapLocation.cs -> Assets/Assets/Orgv1/Entities/Objects/MapLocation.cs
+R  Entities/Objects/MapLocation.cs.meta -> Assets/Assets/Orgv1/Entities/Objects/MapLocation.cs.meta
+R  Entities/Objects/Port.cs -> Assets/Assets/Orgv1/Entities/Objects/Port.cs
+R  Entities/Objects/Port.cs.meta -> Assets/Assets/Orgv1/Entities/Objects/Port.cs.meta
+R  Entities/Objects/Pyramid.cs -> Assets/Assets/Orgv1/Entities/Objects/Pyramid.cs
+R  Entities/Objects/Pyramid.cs.meta -> Assets/Assets/Orgv1/Entities/Objects/Pyramid.cs.meta
+R  Entities/Objects/Qarry.cs -> Assets/Assets/Orgv1/Entities/Objects/Qarry.cs
+R  Entities/Objects/Qarry.cs.meta -> Assets/Assets/Orgv1/Entities/Objects/Qarry.cs.meta
+R  Entities/ResourceType.cs -> Assets/Assets/Orgv1/Entities/ResourceType.cs
+R  Entities/ResourceType.cs.meta -> Assets/Assets/Orgv1/Entities/ResourceType.cs.meta
+R  GameStart.meta -> Assets/Assets/Orgv1/GameStart.meta
+R  GameStart/GameBootstrap.cs -> Assets/Assets/Orgv1/GameStart/GameBootstrap.cs
+R  GameStart/GameBootstrap.cs.meta -> Assets/Assets/Orgv1/GameStart/GameBootstrap.cs.meta
+R  Interfaces.meta -> Assets/Assets/Orgv1/Interfaces.meta
+R  Interfaces/IResourceStorage.cs -> Assets/Assets/Orgv1/Interfaces/IResourceStorage.cs
+R  Interfaces/IResourceStorage.cs.meta -> Assets/Assets/Orgv1/Interfaces/IResourceStorage.cs.meta
+R  Interfaces/IWorkforceProvider.cs -> Assets/Assets/Orgv1/Interfaces/IWorkforceProvider.cs
+R  Interfaces/IWorkforceProvider.cs.meta -> Assets/Assets/Orgv1/Interfaces/IWorkforceProvider.cs.meta
+R  Managers.meta -> Assets/Assets/Orgv1/Managers.meta
+A  Assets/Assets/Orgv1/Managers/CaravanDispatcher.cs
+A  Assets/Assets/Orgv1/Managers/CaravanDispatcher.cs.meta
+R  Managers/FieldManager.cs -> Assets/Assets/Orgv1/Managers/FieldManager.cs
+R  Managers/FieldManager.cs.meta -> Assets/Assets/Orgv1/Managers/FieldManager.cs.meta
+R  Managers/GameConsoleAdvanced.cs -> Assets/Assets/Orgv1/Managers/GameConsoleAdvanced.cs
+R  Managers/GameConsoleAdvanced.cs.meta -> Assets/Assets/Orgv1/Managers/GameConsoleAdvanced.cs.meta
+R  Managers/GameSaveManager.cs -> Assets/Assets/Orgv1/Managers/GameSaveManager.cs
+R  Managers/GameSaveManager.cs.meta -> Assets/Assets/Orgv1/Managers/GameSaveManager.cs.meta
+R  Managers/GameTestManager.cs -> Assets/Assets/Orgv1/Managers/GameTestManager.cs
+R  Managers/GameTestManager.cs.meta -> Assets/Assets/Orgv1/Managers/GameTestManager.cs.meta
+R  Managers/GameTimeManager.cs -> Assets/Assets/Orgv1/Managers/GameTimeManager.cs
+R  Managers/GameTimeManager.cs.meta -> Assets/Assets/Orgv1/Managers/GameTimeManager.cs.meta
+R  Managers/MapLocationManager.cs -> Assets/Assets/Orgv1/Managers/MapLocationManager.cs
+R  Managers/MapLocationManager.cs.meta -> Assets/Assets/Orgv1/Managers/MapLocationManager.cs.meta
+A  Assets/Assets/Orgv1/Managers/MovementDispatcher.cs
+A  Assets/Assets/Orgv1/Managers/MovementDispatcher.cs.meta
+R  Managers/PositionManager.cs -> Assets/Assets/Orgv1/Managers/PositionManager.cs
+R  Managers/PositionManager.cs.meta -> Assets/Assets/Orgv1/Managers/PositionManager.cs.meta
+A  Assets/Assets/Orgv1/PROJECT_FILE_LIST.txt
+R  PROJECT_FILE_LIST.txt.meta -> Assets/Assets/Orgv1/PROJECT_FILE_LIST.txt.meta
+R  README.md -> Assets/Assets/Orgv1/README.md
+R  README.md.meta -> Assets/Assets/Orgv1/README.md.meta
+R  SaveScr.meta -> Assets/Assets/Orgv1/SaveScr.meta
+R  SaveScr/Data.meta -> Assets/Assets/Orgv1/SaveScr/Data.meta
+R  SaveScr/Data/Behavior.meta -> Assets/Assets/Orgv1/SaveScr/Data/Behavior.meta
+R  SaveScr/Data/Behavior/GraphData.meta -> Assets/Assets/Orgv1/SaveScr/Data/Behavior/GraphData.meta
+R  SaveScr/Data/Behavior/GraphData/GlobalStockHistoryData.cs -> Assets/Assets/Orgv1/SaveScr/Data/Behavior/GraphData/GlobalStockHistoryData.cs
+R  SaveScr/Data/Behavior/GraphData/GlobalStockHistoryData.cs.meta -> Assets/Assets/Orgv1/SaveScr/Data/Behavior/GraphData/GlobalStockHistoryData.cs.meta
+R  SaveScr/Data/Behavior/GraphData/ObjectStockHistoryData.cs -> Assets/Assets/Orgv1/SaveScr/Data/Behavior/GraphData/ObjectStockHistoryData.cs
+R  SaveScr/Data/Behavior/GraphData/ObjectStockHistoryData.cs.meta -> Assets/Assets/Orgv1/SaveScr/Data/Behavior/GraphData/ObjectStockHistoryData.cs.meta
+R  SaveScr/Data/Behavior/GraphData/StatisticsData.cs -> Assets/Assets/Orgv1/SaveScr/Data/Behavior/GraphData/StatisticsData.cs
+R  SaveScr/Data/Behavior/GraphData/StatisticsData.cs.meta -> Assets/Assets/Orgv1/SaveScr/Data/Behavior/GraphData/StatisticsData.cs.meta
+R  SaveScr/Data/Behavior/GraphData/StockSnapshotData.cs -> Assets/Assets/Orgv1/SaveScr/Data/Behavior/GraphData/StockSnapshotData.cs
+R  SaveScr/Data/Behavior/GraphData/StockSnapshotData.cs.meta -> Assets/Assets/Orgv1/SaveScr/Data/Behavior/GraphData/StockSnapshotData.cs.meta
+R  SaveScr/Data/Behavior/PositionData.meta -> Assets/Assets/Orgv1/SaveScr/Data/Behavior/PositionData.meta
+A  Assets/Assets/Orgv1/SaveScr/Data/Behavior/PositionData/CaravanDispatchOrderData.cs
+A  Assets/Assets/Orgv1/SaveScr/Data/Behavior/PositionData/CaravanDispatchOrderData.cs.meta
+R  SaveScr/Data/Behavior/PositionData/CaravanPositionData.cs -> Assets/Assets/Orgv1/SaveScr/Data/Behavior/PositionData/CaravanPositionData.cs
+R  SaveScr/Data/Behavior/PositionData/CaravanPositionData.cs.meta -> Assets/Assets/Orgv1/SaveScr/Data/Behavior/PositionData/CaravanPositionData.cs.meta
+R  SaveScr/Data/Behavior/PositionData/CaravanRouteData.cs -> Assets/Assets/Orgv1/SaveScr/Data/Behavior/PositionData/CaravanRouteData.cs
+R  SaveScr/Data/Behavior/PositionData/CaravanRouteData.cs.meta -> Assets/Assets/Orgv1/SaveScr/Data/Behavior/PositionData/CaravanRouteData.cs.meta
+R  SaveScr/Data/Behavior/PositionData/CaravanRouteStepData.cs -> Assets/Assets/Orgv1/SaveScr/Data/Behavior/PositionData/CaravanRouteStepData.cs
+R  SaveScr/Data/Behavior/PositionData/CaravanRouteStepData.cs.meta -> Assets/Assets/Orgv1/SaveScr/Data/Behavior/PositionData/CaravanRouteStepData.cs.meta
+R  SaveScr/Data/Behavior/PositionData/PositionData.cs -> Assets/Assets/Orgv1/SaveScr/Data/Behavior/PositionData/PositionData.cs
+R  SaveScr/Data/Behavior/PositionData/PositionData.cs.meta -> Assets/Assets/Orgv1/SaveScr/Data/Behavior/PositionData/PositionData.cs.meta
+R  SaveScr/Data/Entities.meta -> Assets/Assets/Orgv1/SaveScr/Data/Entities.meta
+R  SaveScr/Data/Entities/Activity.meta -> Assets/Assets/Orgv1/SaveScr/Data/Entities/Activity.meta
+R  SaveScr/Data/Entities/Activity/ActivityData.cs -> Assets/Assets/Orgv1/SaveScr/Data/Entities/Activity/ActivityData.cs
+R  SaveScr/Data/Entities/Activity/ActivityData.cs.meta -> Assets/Assets/Orgv1/SaveScr/Data/Entities/Activity/ActivityData.cs.meta
+R  SaveScr/Data/Entities/Activity/ActivityFactory.cs -> Assets/Assets/Orgv1/SaveScr/Data/Entities/Activity/ActivityFactory.cs
+R  SaveScr/Data/Entities/Activity/ActivityFactory.cs.meta -> Assets/Assets/Orgv1/SaveScr/Data/Entities/Activity/ActivityFactory.cs.meta
+R  SaveScr/Data/Entities/ExchangeRateEntry.cs -> Assets/Assets/Orgv1/SaveScr/Data/Entities/ExchangeRateEntry.cs
+R  SaveScr/Data/Entities/ExchangeRateEntry.cs.meta -> Assets/Assets/Orgv1/SaveScr/Data/Entities/ExchangeRateEntry.cs.meta
+R  SaveScr/Data/Entities/IDGeneratorData.cs -> Assets/Assets/Orgv1/SaveScr/Data/Entities/IDGeneratorData.cs
+R  SaveScr/Data/Entities/IDGeneratorData.cs.meta -> Assets/Assets/Orgv1/SaveScr/Data/Entities/IDGeneratorData.cs.meta
+R  SaveScr/Data/Entities/MapLocation.meta -> Assets/Assets/Orgv1/SaveScr/Data/Entities/MapLocation.meta
+R  SaveScr/Data/Entities/MapLocation/CaravanData.cs -> Assets/Assets/Orgv1/SaveScr/Data/Entities/MapLocation/CaravanData.cs
+R  SaveScr/Data/Entities/MapLocation/CaravanData.cs.meta -> Assets/Assets/Orgv1/SaveScr/Data/Entities/MapLocation/CaravanData.cs.meta
+R  SaveScr/Data/Entities/MapLocation/CityData.cs -> Assets/Assets/Orgv1/SaveScr/Data/Entities/MapLocation/CityData.cs
+R  SaveScr/Data/Entities/MapLocation/CityData.cs.meta -> Assets/Assets/Orgv1/SaveScr/Data/Entities/MapLocation/CityData.cs.meta
+R  SaveScr/Data/Entities/MapLocation/CustomPointData.cs -> Assets/Assets/Orgv1/SaveScr/Data/Entities/MapLocation/CustomPointData.cs
+R  SaveScr/Data/Entities/MapLocation/CustomPointData.cs.meta -> Assets/Assets/Orgv1/SaveScr/Data/Entities/MapLocation/CustomPointData.cs.meta
+R  SaveScr/Data/Entities/MapLocation/FieldData.cs -> Assets/Assets/Orgv1/SaveScr/Data/Entities/MapLocation/FieldData.cs
+R  SaveScr/Data/Entities/MapLocation/FieldData.cs.meta -> Assets/Assets/Orgv1/SaveScr/Data/Entities/MapLocation/FieldData.cs.meta
+R  SaveScr/Data/Entities/MapLocation/MapLocationData.cs -> Assets/Assets/Orgv1/SaveScr/Data/Entities/MapLocation/MapLocationData.cs
+R  SaveScr/Data/Entities/MapLocation/MapLocationData.cs.meta -> Assets/Assets/Orgv1/SaveScr/Data/Entities/MapLocation/MapLocationData.cs.meta
+R  SaveScr/Data/Entities/MapLocation/PortData.cs -> Assets/Assets/Orgv1/SaveScr/Data/Entities/MapLocation/PortData.cs
+R  SaveScr/Data/Entities/MapLocation/PortData.cs.meta -> Assets/Assets/Orgv1/SaveScr/Data/Entities/MapLocation/PortData.cs.meta
+R  SaveScr/Data/Entities/MapLocation/PyramidData.cs -> Assets/Assets/Orgv1/SaveScr/Data/Entities/MapLocation/PyramidData.cs
+R  SaveScr/Data/Entities/MapLocation/PyramidData.cs.meta -> Assets/Assets/Orgv1/SaveScr/Data/Entities/MapLocation/PyramidData.cs.meta
+R  SaveScr/Data/Entities/MapLocation/QuarryData.cs -> Assets/Assets/Orgv1/SaveScr/Data/Entities/MapLocation/QuarryData.cs
+R  SaveScr/Data/Entities/MapLocation/QuarryData.cs.meta -> Assets/Assets/Orgv1/SaveScr/Data/Entities/MapLocation/QuarryData.cs.meta
+R  SaveScr/Data/Entities/ResourceEntry.cs -> Assets/Assets/Orgv1/SaveScr/Data/Entities/ResourceEntry.cs
+R  SaveScr/Data/Entities/ResourceEntry.cs.meta -> Assets/Assets/Orgv1/SaveScr/Data/Entities/ResourceEntry.cs.meta
+R  SaveScr/Data/Entities/ResourceStorageExtensions.cs -> Assets/Assets/Orgv1/SaveScr/Data/Entities/ResourceStorageExtensions.cs
+R  SaveScr/Data/Entities/ResourceStorageExtensions.cs.meta -> Assets/Assets/Orgv1/SaveScr/Data/Entities/ResourceStorageExtensions.cs.meta
+R  SaveScr/Data/GameSaveData.cs -> Assets/Assets/Orgv1/SaveScr/Data/GameSaveData.cs
+R  SaveScr/Data/GameSaveData.cs.meta -> Assets/Assets/Orgv1/SaveScr/Data/GameSaveData.cs.meta
+R  SaveScr/Data/TimeData.cs -> Assets/Assets/Orgv1/SaveScr/Data/TimeData.cs
+R  SaveScr/Data/TimeData.cs.meta -> Assets/Assets/Orgv1/SaveScr/Data/TimeData.cs.meta
+R  Testing.meta -> Assets/Assets/Orgv1/Testing.meta
+A  Assets/Assets/Orgv1/Testing/CaravanAutomaticDisbandTest.cs
+A  Assets/Assets/Orgv1/Testing/CaravanAutomaticDisbandTest.cs.meta
+A  Assets/Assets/Orgv1/Testing/CaravanDisbandTest.cs
+A  Assets/Assets/Orgv1/Testing/CaravanDisbandTest.cs.meta
+A  Assets/Assets/Orgv1/Testing/CaravanDispatchSaveLoadTest.cs
+A  Assets/Assets/Orgv1/Testing/CaravanDispatchSaveLoadTest.cs.meta
+A  Assets/Assets/Orgv1/Testing/CaravanDispatchTest.cs
+A  Assets/Assets/Orgv1/Testing/CaravanDispatchTest.cs.meta
+A  Assets/Assets/Orgv1/Testing/CaravanLifecycleTest.cs
+A  Assets/Assets/Orgv1/Testing/CaravanLifecycleTest.cs.meta
+A  Assets/Assets/Orgv1/Testing/CaravanLoopRouteTest.cs
+A  Assets/Assets/Orgv1/Testing/CaravanLoopRouteTest.cs.meta
+R  Testing/CaravanMovementTest.cs -> Assets/Assets/Orgv1/Testing/CaravanMovementTest.cs
+R  Testing/CaravanMovementTest.cs.meta -> Assets/Assets/Orgv1/Testing/CaravanMovementTest.cs.meta
+A  Assets/Assets/Orgv1/Testing/FullWorldSaveLoadTest.cs
+A  Assets/Assets/Orgv1/Testing/FullWorldSaveLoadTest.cs.meta
+R  Testing/GameTest.cs -> Assets/Assets/Orgv1/Testing/GameTest.cs
+R  Testing/GameTest.cs.meta -> Assets/Assets/Orgv1/Testing/GameTest.cs.meta
+R  Testing/GameTestContext.cs -> Assets/Assets/Orgv1/Testing/GameTestContext.cs
+R  Testing/GameTestContext.cs.meta -> Assets/Assets/Orgv1/Testing/GameTestContext.cs.meta
+R  Testing/MiningStatisticsOrderTest.cs -> Assets/Assets/Orgv1/Testing/MiningStatisticsOrderTest.cs
+R  Testing/MiningStatisticsOrderTest.cs.meta -> Assets/Assets/Orgv1/Testing/MiningStatisticsOrderTest.cs.meta
+A  Assets/Assets/Orgv1/Testing/PeriodicCyclicDispatchTest.cs
+A  Assets/Assets/Orgv1/Testing/PeriodicCyclicDispatchTest.cs.meta
+A  Assets/Assets/Orgv1/Testing/PositionCreationTest.cs
+A  Assets/Assets/Orgv1/Testing/PositionCreationTest.cs.meta
+R  Testing/StatisticsStockContentTest.cs -> Assets/Assets/Orgv1/Testing/StatisticsStockContentTest.cs
+R  Testing/StatisticsStockContentTest.cs.meta -> Assets/Assets/Orgv1/Testing/StatisticsStockContentTest.cs.meta
+A  Assets/Assets/Orgv1/Trash.meta
+R  UI.meta -> Assets/Assets/Orgv1/UI.meta
+R  UI/LocationUI.meta -> Assets/Assets/Orgv1/UI/LocationUI.meta
+R  UI/LocationUI/CustomPointPlacementController.cs -> Assets/Assets/Orgv1/UI/LocationUI/CustomPointPlacementController.cs
+R  UI/LocationUI/CustomPointPlacementController.cs.meta -> Assets/Assets/Orgv1/UI/LocationUI/CustomPointPlacementController.cs.meta
+R  UI/LocationUI/WorldLocationClickHandler.cs -> Assets/Assets/Orgv1/UI/LocationUI/WorldLocationClickHandler.cs
+R  UI/LocationUI/WorldLocationClickHandler.cs.meta -> Assets/Assets/Orgv1/UI/LocationUI/WorldLocationClickHandler.cs.meta
+R  UI/MainUI.meta -> Assets/Assets/Orgv1/UI/MainUI.meta
+A  Assets/Assets/Orgv1/UI/MainUI/CaravanDispatchWizardController.cs
+A  Assets/Assets/Orgv1/UI/MainUI/CaravanDispatchWizardController.cs.meta
+R  UI/MainUI/LocationUIElement.cs -> Assets/Assets/Orgv1/UI/MainUI/LocationUIElement.cs
+R  UI/MainUI/LocationUIElement.cs.meta -> Assets/Assets/Orgv1/UI/MainUI/LocationUIElement.cs.meta
+R  UI/MainUI/MapUIController.cs -> Assets/Assets/Orgv1/UI/MainUI/MapUIController.cs
+R  UI/MainUI/MapUIController.cs.meta -> Assets/Assets/Orgv1/UI/MainUI/MapUIController.cs.meta
+R  UI/MainUI/UIWorldController.cs -> Assets/Assets/Orgv1/UI/MainUI/UIWorldController.cs
+R  UI/MainUI/UIWorldController.cs.meta -> Assets/Assets/Orgv1/UI/MainUI/UIWorldController.cs.meta
+R  UI/MainUI/UIWorldLayer.cs -> Assets/Assets/Orgv1/UI/MainUI/UIWorldLayer.cs
+R  UI/MainUI/UIWorldLayer.cs.meta -> Assets/Assets/Orgv1/UI/MainUI/UIWorldLayer.cs.meta
+R  UI/PositionUI.meta -> Assets/Assets/Orgv1/UI/PositionUI.meta
+R  UI/PositionUI/Activities.meta -> Assets/Assets/Orgv1/UI/PositionUI/Activities.meta
+R  UI/PositionUI/Activities/ScheduleBlockUI.cs -> Assets/Assets/Orgv1/UI/PositionUI/Activities/ScheduleBlockUI.cs
+R  UI/PositionUI/Activities/ScheduleBlockUI.cs.meta -> Assets/Assets/Orgv1/UI/PositionUI/Activities/ScheduleBlockUI.cs.meta
+R  UI/PositionUI/Activities/ScheduleDraft.cs -> Assets/Assets/Orgv1/UI/PositionUI/Activities/ScheduleDraft.cs
+R  UI/PositionUI/Activities/ScheduleDraft.cs.meta -> Assets/Assets/Orgv1/UI/PositionUI/Activities/ScheduleDraft.cs.meta
+R  UI/PositionUI/Activities/ScheduleEditorController.cs -> Assets/Assets/Orgv1/UI/PositionUI/Activities/ScheduleEditorController.cs
+R  UI/PositionUI/Activities/ScheduleEditorController.cs.meta -> Assets/Assets/Orgv1/UI/PositionUI/Activities/ScheduleEditorController.cs.meta
+R  UI/PositionUI/Activities/ScheduleEditorUIController.cs -> Assets/Assets/Orgv1/UI/PositionUI/Activities/ScheduleEditorUIController.cs
+R  UI/PositionUI/Activities/ScheduleEditorUIController.cs.meta -> Assets/Assets/Orgv1/UI/PositionUI/Activities/ScheduleEditorUIController.cs.meta
+R  UI/PositionUI/CaravanPosition.meta -> Assets/Assets/Orgv1/UI/PositionUI/CaravanPosition.meta
+R  UI/PositionUI/CaravanPosition/CaravanView.cs -> Assets/Assets/Orgv1/UI/PositionUI/CaravanPosition/CaravanView.cs
+R  UI/PositionUI/CaravanPosition/CaravanView.cs.meta -> Assets/Assets/Orgv1/UI/PositionUI/CaravanPosition/CaravanView.cs.meta
+R  UI/PositionUI/CaravanPosition/CaravanVisualManager.cs -> Assets/Assets/Orgv1/UI/PositionUI/CaravanPosition/CaravanVisualManager.cs
+R  UI/PositionUI/CaravanPosition/CaravanVisualManager.cs.meta -> Assets/Assets/Orgv1/UI/PositionUI/CaravanPosition/CaravanVisualManager.cs.meta
+R  UI/PositionUI/PositionScheduleHourUI.cs -> Assets/Assets/Orgv1/UI/PositionUI/PositionScheduleHourUI.cs
+R  UI/PositionUI/PositionScheduleHourUI.cs.meta -> Assets/Assets/Orgv1/UI/PositionUI/PositionScheduleHourUI.cs.meta
+R  UI/PositionUI/UIPositionCreator.cs -> Assets/Assets/Orgv1/UI/PositionUI/UIPositionCreator.cs
+R  UI/PositionUI/UIPositionCreator.cs.meta -> Assets/Assets/Orgv1/UI/PositionUI/UIPositionCreator.cs.meta
+R  UI/PositionUI/UIPositionSchedule.cs -> Assets/Assets/Orgv1/UI/PositionUI/UIPositionSchedule.cs
+R  UI/PositionUI/UIPositionSchedule.cs.meta -> Assets/Assets/Orgv1/UI/PositionUI/UIPositionSchedule.cs.meta
+R  WRL.meta -> Assets/Assets/Orgv1/WRL.meta
+R  WRL/WorldRegistry.cs -> Assets/Assets/Orgv1/WRL/WorldRegistry.cs
+R  WRL/WorldRegistry.cs.meta -> Assets/Assets/Orgv1/WRL/WorldRegistry.cs.meta
+A  Assets/Assets/Orgv1/docs.meta
+R  docs/ARCHITECTURE.md -> Assets/Assets/Orgv1/docs/ARCHITECTURE.md
+A  Assets/Assets/Orgv1/docs/ARCHITECTURE.md.meta
+R  docs/CARAVANS.md -> Assets/Assets/Orgv1/docs/CARAVANS.md
+A  Assets/Assets/Orgv1/docs/CARAVANS.md.meta
+A  Assets/Assets/Scripts.meta
+A  Assets/InputSystem_Actions.inputactions
+A  Assets/InputSystem_Actions.inputactions.meta
+A  Assets/Picture.meta
+A  Assets/Picture/Caravan.meta
+A  Assets/Picture/Caravan/Caravans.prefab
+A  Assets/Picture/Caravan/Caravans.prefab.meta
+A  Assets/Picture/Caravan/free-icon-camel-shape-47030.png
+A  Assets/Picture/Caravan/free-icon-camel-shape-47030.png.meta
+A  Assets/Picture/Location.meta
+A  Assets/Picture/Location/Ahetaton.meta
+A  Assets/Picture/Location/Ahetaton/Free.png
+A  Assets/Picture/Location/Ahetaton/Free.png.meta
+A  Assets/Picture/Location/Ahetaton/Hover.png
+A  Assets/Picture/Location/Ahetaton/Hover.png.meta
+A  Assets/Picture/Location/ConstructionQuarry.meta
+A  Assets/Picture/Location/ConstructionQuarry/Free.png
+A  Assets/Picture/Location/ConstructionQuarry/Free.png.meta
+A  Assets/Picture/Location/ConstructionQuarry/Hover.png
+A  Assets/Picture/Location/ConstructionQuarry/Hover.png.meta
+A  Assets/Picture/Location/CustomPoint.meta
+A  Assets/Picture/Location/CustomPoint/CustomPoint.prefab
+A  Assets/Picture/Location/CustomPoint/CustomPoint.prefab.meta
+A  Assets/Picture/Location/CustomPoint/imgbin_440f023fd6edc11f48a63213d0676fa9.png
+A  Assets/Picture/Location/CustomPoint/imgbin_440f023fd6edc11f48a63213d0676fa9.png.meta
+A  Assets/Picture/Location/DesertQuarry.meta
+A  Assets/Picture/Location/DesertQuarry/Free.png
+A  Assets/Picture/Location/DesertQuarry/Free.png.meta
+A  Assets/Picture/Location/DesertQuarry/Hover.png
+A  Assets/Picture/Location/DesertQuarry/Hover.png.meta
+A  Assets/Picture/Location/DistantQuarry.meta
+A  Assets/Picture/Location/DistantQuarry/Free.png
+A  Assets/Picture/Location/DistantQuarry/Free.png.meta
+A  Assets/Picture/Location/DistantQuarry/Hover.png
+A  Assets/Picture/Location/DistantQuarry/Hover.png.meta
+A  Assets/Picture/Location/Fields.meta
+A  Assets/Picture/Location/Memphis.meta
+A  Assets/Picture/Location/Memphis/Free.png
+A  Assets/Picture/Location/Memphis/Free.png.meta
+A  Assets/Picture/Location/Memphis/Hover.png
+A  Assets/Picture/Location/Memphis/Hover.png.meta
+A  Assets/Picture/Location/Per-Ramses.meta
+A  Assets/Picture/Location/Per-Ramses/Free.png
+A  Assets/Picture/Location/Per-Ramses/Free.png.meta
+A  Assets/Picture/Location/Per-Ramses/Hover.png
+A  Assets/Picture/Location/Per-Ramses/Hover.png.meta
+A  Assets/Picture/Location/Pyramide.meta
+A  "Assets/Picture/Location/Pyramide/After 75% free.png"
+A  "Assets/Picture/Location/Pyramide/After 75% free.png.meta"
+A  "Assets/Picture/Location/Pyramide/After 75% hover.png"
+A  "Assets/Picture/Location/Pyramide/After 75% hover.png.meta"
+A  "Assets/Picture/Location/Pyramide/Up to 75% free.png"
+A  "Assets/Picture/Location/Pyramide/Up to 75% free.png.meta"
+A  "Assets/Picture/Location/Pyramide/Up to 75% hover.png"
+A  "Assets/Picture/Location/Pyramide/Up to 75% hover.png.meta"
+A  Assets/Picture/Location/Rosetta.meta
+A  Assets/Picture/Location/Rosetta/Free.png
+A  Assets/Picture/Location/Rosetta/Free.png.meta
+A  Assets/Picture/Location/Rosetta/Hover.png
+A  Assets/Picture/Location/Rosetta/Hover.png.meta
+A  Assets/Picture/Map.png
+A  Assets/Picture/Map.png.meta
+A  Assets/Picture/Materials.meta
+A  Assets/Picture/Materials/Map.mat
+A  Assets/Picture/Materials/Map.mat.meta
+A  Assets/Picture/Position.meta
+A  Assets/Picture/Position/Delete.png
+A  Assets/Picture/Position/Delete.png.meta
+A  Assets/Picture/Position/PositionUI.prefab
+A  Assets/Picture/Position/PositionUI.prefab.meta
+A  Assets/Picture/Position/blockPrefab.prefab
+A  Assets/Picture/Position/blockPrefab.prefab.meta
+A  Assets/Picture/Position/free-icon-check-14090371.png
+A  Assets/Picture/Position/free-icon-check-14090371.png.meta
+A  Assets/Picture/Position/free-icon-remove-1828843.png
+A  Assets/Picture/Position/free-icon-remove-1828843.png.meta
+A  Assets/Picture/Position/pngwing.com.png
+A  Assets/Picture/Position/pngwing.com.png.meta
+A  Assets/Readme.asset
+A  Assets/Readme.asset.meta
+A  Assets/Scenes.meta
+A  Assets/Scenes/SampleScene.unity
+A  Assets/Scenes/SampleScene.unity.meta
+A  Assets/Settings.meta
+A  Assets/Settings/DefaultVolumeProfile.asset
+A  Assets/Settings/DefaultVolumeProfile.asset.meta
+A  Assets/Settings/Mobile_RPAsset.asset
+A  Assets/Settings/Mobile_RPAsset.asset.meta
+A  Assets/Settings/Mobile_Renderer.asset
+A  Assets/Settings/Mobile_Renderer.asset.meta
+A  Assets/Settings/PC_RPAsset.asset
+A  Assets/Settings/PC_RPAsset.asset.meta
+A  Assets/Settings/PC_Renderer.asset
+A  Assets/Settings/PC_Renderer.asset.meta
+A  Assets/Settings/SampleSceneProfile.asset
+A  Assets/Settings/SampleSceneProfile.asset.meta
+A  Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+A  Assets/Settings/UniversalRenderPipelineGlobalSettings.asset.meta
+A  "Assets/TextMesh Pro.meta"
+A  "Assets/TextMesh Pro/Examples & Extras.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold - AFL.txt"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold - AFL.txt.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold - License.txt"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold - License.txt.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts/Unity - OFL.txt"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts/Unity - OFL.txt.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts/Unity.asset"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts/Unity.asset.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts/Unity.ttf"
+A  "Assets/TextMesh Pro/Examples & Extras/Fonts/Unity.ttf.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Materials.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat"
+A  "Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Materials/Crate - URP.mat"
+A  "Assets/TextMesh Pro/Examples & Extras/Materials/Crate - URP.mat.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat"
+A  "Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat"
+A  "Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Materials/Ground - URP.mat"
+A  "Assets/TextMesh Pro/Examples & Extras/Materials/Ground - URP.mat.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat"
+A  "Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Prefabs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab"
+A  "Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab"
+A  "Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab"
+A  "Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow - 2 Pass.mat"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow - 2 Pass.mat.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo - URP.mat"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo - URP.mat.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - HDRP Unlit.mat"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - HDRP Unlit.mat.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - URP.mat"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - URP.mat.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF - HDRP LIT - Bloom.mat"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF - HDRP LIT - Bloom.mat.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF - HDRP LIT - Outline.mat"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF - HDRP LIT - Outline.mat.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF.asset"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF.asset.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite Asset.asset"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite Asset.asset.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset"
+A  "Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/07 - Superscript & Subscript Example.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/07 - Superscript & Subscript Example.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & Sprites.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & Sprites.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode example.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode example.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft Mask.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft Mask.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/22 - Basic Scripting Example.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/22 - Basic Scripting Example.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example URP.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example URP.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/27 - Double Pass Shader Example.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/27 - Double Pass Shader Example.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/28 - HDRP Shader Example.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/28 - HDRP Shader Example.unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/28 - HDRP Shader Example.unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/28 - HDRP Shader Example/Sky and Fog Volume Profile.asset"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/28 - HDRP Shader Example/Sky and Fog Volume Profile.asset.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/Benchmark (Floating Text).unity"
+A  "Assets/TextMesh Pro/Examples & Extras/Scenes/Benchmark (Floating Text).unity.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+A  "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Sprites.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png"
+A  "Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd"
+A  "Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd.meta"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd"
+A  "Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd.meta"
+A  "Assets/TextMesh Pro/Fonts.meta"
+A  "Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt"
+A  "Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta"
+A  "Assets/TextMesh Pro/Fonts/LiberationSans.ttf"
+A  "Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta"
+A  "Assets/TextMesh Pro/Resources.meta"
+A  "Assets/TextMesh Pro/Resources/Fonts & Materials.meta"
+A  "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat"
+A  "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta"
+A  "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset"
+A  "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta"
+A  "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat"
+A  "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta"
+A  "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset"
+A  "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta"
+A  "Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt"
+A  "Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta"
+A  "Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt"
+A  "Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta"
+A  "Assets/TextMesh Pro/Resources/Style Sheets.meta"
+A  "Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset"
+A  "Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta"
+A  "Assets/TextMesh Pro/Resources/TMP Settings.asset"
+A  "Assets/TextMesh Pro/Resources/TMP Settings.asset.meta"
+A  "Assets/TextMesh Pro/Shaders.meta"
+A  "Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl"
+A  "Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_Sprite.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMPro.cginc"
+A  "Assets/TextMesh Pro/Shaders/TMPro.cginc.meta"
+A  "Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc"
+A  "Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta"
+A  "Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc"
+A  "Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta"
+A  "Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc"
+A  "Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta"
+A  Assets/TutorialInfo.meta
+A  Assets/TutorialInfo/Icons.meta
+A  Assets/TutorialInfo/Icons/URP.png
+A  Assets/TutorialInfo/Icons/URP.png.meta
+A  Assets/TutorialInfo/Layout.wlt
+A  Assets/TutorialInfo/Layout.wlt.meta
+A  Assets/TutorialInfo/Scripts.meta
+A  Assets/TutorialInfo/Scripts/Editor.meta
+A  Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+A  Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs.meta
+A  Assets/TutorialInfo/Scripts/Readme.cs
+A  Assets/TutorialInfo/Scripts/Readme.cs.meta
+D  Documentation/CaravanSystem/DesignNotes.md
+D  PROJECT_FILE_LIST.txt
+A  Packages/manifest.json
+A  Packages/packages-lock.json
+A  ProjectSettings/AudioManager.asset
+A  ProjectSettings/ClusterInputManager.asset
+A  ProjectSettings/DynamicsManager.asset
+A  ProjectSettings/EditorBuildSettings.asset
+A  ProjectSettings/EditorSettings.asset
+A  ProjectSettings/GraphicsSettings.asset
+A  ProjectSettings/InputManager.asset
+A  ProjectSettings/MemorySettings.asset
+A  ProjectSettings/MultiplayerManager.asset
+A  ProjectSettings/NavMeshAreas.asset
+A  ProjectSettings/PackageManagerSettings.asset
+A  ProjectSettings/Packages/com.unity.ai.assistant/Settings.json
+A  ProjectSettings/Physics2DSettings.asset
+A  ProjectSettings/PhysicsCoreProjectSettings2D.asset
+A  ProjectSettings/PresetManager.asset
+A  ProjectSettings/ProjectSettings.asset
+A  ProjectSettings/ProjectVersion.txt
+A  ProjectSettings/QualitySettings.asset
+A  ProjectSettings/SceneTemplateSettings.json
+A  ProjectSettings/ShaderGraphSettings.asset
+A  ProjectSettings/TagManager.asset
+A  ProjectSettings/TimeManager.asset
+A  ProjectSettings/URPProjectSettings.asset
+A  ProjectSettings/UnityConnectSettings.asset
+A  ProjectSettings/VFXManager.asset
+A  ProjectSettings/VersionControlSettings.asset
+A  ProjectSettings/XRSettings.asset
+?? CSharp_Migration_Review.patch
+?? Integration_Tree_Application_Report.txt
+?? Integration_Tree_Preparation_Report.txt
+
+=== UNITY STRUCTURE ===
+Assets : True
+Packages : True
+ProjectSettings : True
