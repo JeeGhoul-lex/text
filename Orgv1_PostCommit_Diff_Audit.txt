@@ -1,0 +1,54 @@
+﻿=== POST-COMMIT DIFF AUDIT ===
+DATE: 2026-11-19 22:49:49
+
+=== CURRENT HEAD ===
+11167be7329010d4b7005f1b249dbee08d8cb5c8
+
+=== MODIFIED TRACKED FILES ===
+ M Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+ M ProjectSettings/EditorBuildSettings.asset
+ M ProjectSettings/ProjectSettings.asset
+ M ProjectSettings/ShaderGraphSettings.asset
+?? Assets/Assets/Orgv1/Documentation/UI/Screenshots/UI_Screenshot_UnityEditor_20261119_213104_897.png
+?? Assets/Assets/Orgv1/Documentation/UI/Screenshots/UI_Screenshot_UnityEditor_20261119_213104_897.png.meta
+?? Assets/Assets/Orgv1/Documentation/UI/Screenshots/UI_Screenshot_UnityEditor_20261119_213118_235.png
+?? Assets/Assets/Orgv1/Documentation/UI/Screenshots/UI_Screenshot_UnityEditor_20261119_213118_235.png.meta
+?? Assets/Assets/Orgv1/Documentation/UI/Screenshots/UI_Screenshot_UnityEditor_20261119_213119_269.png
+?? Assets/Assets/Orgv1/Documentation/UI/Screenshots/UI_Screenshot_UnityEditor_20261119_213119_269.png.meta
+?? Assets/Assets/Orgv1/Documentation/UI/Screenshots/UI_Screenshot_UnityEditor_20261119_214056_876.png
+?? Assets/Assets/Orgv1/Documentation/UI/Screenshots/UI_Screenshot_UnityEditor_20261119_214056_876.png.meta
+?? CSharp_Migration_Review.patch
+?? Final_PreCommit_Audit.txt
+?? Integration_Tree_Application_Report.txt
+?? Integration_Tree_Preparation_Report.txt
+?? Integration_Tree_Verification_Report.txt
+?? Orgv1_Commit_Result.txt
+?? Orgv1_Final_Check_2.txt
+?? Orgv1_Final_PreCommit_Audit.txt
+?? Root_Files_Check.txt
+?? Root_Files_Restore_Check.txt
+?? Staged_Content_Audit.txt
+?? Unity_GUID_Comparison.txt
+?? Unity_Integrity_Audit.txt
+?? Unity_Settings_Diff_Report.txt
+
+=== NORMAL DIFF SUMMARY ===
+
+=== DIFF IGNORING END-OF-LINE WHITESPACE ===
+
+=== DIFF CHECK ===
+git : warning: in the working copy of 'Assets/Settings/UniversalRenderPipelineGlobalSettings.asset', LF will be replace
+d by CRLF the next time Git touches it
+строка:22 знак:6
++     (git diff --check 2>&1 | Out-String)
++      ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: in the... Git touches it:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+warning: in the working copy of 'ProjectSettings/EditorBuildSettings.asset', LF will be replaced by CRLF the next time 
+Git touches it
+warning: in the working copy of 'ProjectSettings/ProjectSettings.asset', LF will be replaced by CRLF the next time Git 
+touches it
+warning: in the working copy of 'ProjectSettings/ShaderGraphSettings.asset', LF will be replaced by CRLF the next time 
+Git touches it
+
