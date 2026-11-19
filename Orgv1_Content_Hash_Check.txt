@@ -1,0 +1,10 @@
+﻿
+File                                                        WorkingTree                              Index                                    HEAD                                     AllEqual
+----                                                        -----------                              -----                                    ----                                     --------
+Assets/Settings/UniversalRenderPipelineGlobalSettings.asset 0e6fbec40e3c4bf6a129ba90bcb65dd6e735442f 0e6fbec40e3c4bf6a129ba90bcb65dd6e735442f 0e6fbec40e3c4bf6a129ba90bcb65dd6e735442f     True
+ProjectSettings/EditorBuildSettings.asset                   e93902726eba42edefa519b8977947b5322221b6 e93902726eba42edefa519b8977947b5322221b6 e93902726eba42edefa519b8977947b5322221b6     True
+ProjectSettings/ProjectSettings.asset                       abe7505dc25881a3f4b879c02d878b0e63bf2098 abe7505dc25881a3f4b879c02d878b0e63bf2098 abe7505dc25881a3f4b879c02d878b0e63bf2098     True
+ProjectSettings/ShaderGraphSettings.asset                   ce8c2432884fcc0d627b3cef54a6ea51d4f766e4 ce8c2432884fcc0d627b3cef54a6ea51d4f766e4 ce8c2432884fcc0d627b3cef54a6ea51d4f766e4     True
+
+
+
