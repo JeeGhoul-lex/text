@@ -1,0 +1,25 @@
+=== REMOTE BRANCHES ===
+  migration/feature/unity-project-root-migration
+  origin/HEAD -> origin/main
+  origin/integration/full-unity-project
+  origin/main
+
+=== SHOW-REF ===
+d5fd417306ecc75bfe8428abc701ff36c92880e4 refs/heads/feature/unity-project-root-migration
+4ded7498ae3f9f67369613c27636ebd19aaf0897 refs/heads/integration/full-unity-project
+4e7765990a9924a81b8fbd817b8396fbf74b2742 refs/heads/main
+d5fd417306ecc75bfe8428abc701ff36c92880e4 refs/remotes/migration/feature/unity-project-root-migration
+4e7765990a9924a81b8fbd817b8396fbf74b2742 refs/remotes/origin/HEAD
+11167be7329010d4b7005f1b249dbee08d8cb5c8 refs/remotes/origin/integration/full-unity-project
+4e7765990a9924a81b8fbd817b8396fbf74b2742 refs/remotes/origin/main
+4839264d718ae5418c212ba37467171e6267eeb5 refs/stash
+
+=== REMOTE REF TYPE ===
+commit
+
+=== REMOTE REF COMMIT ===
+11167be7329010d4b7005f1b249dbee08d8cb5c8
+
+=== CONFIG ===
+branch.integration/full-unity-project.remote origin
+branch.integration/full-unity-project.merge refs/heads/integration/full-unity-project
