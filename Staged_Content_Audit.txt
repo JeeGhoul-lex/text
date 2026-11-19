@@ -1,0 +1,90 @@
+﻿=== AUDIT CONTEXT ===
+Branch: integration/full-unity-project
+HEAD: 4e7765990a9924a81b8fbd817b8396fbf74b2742
+Staged paths: 801
+
+=== TOP-LEVEL DISTRIBUTION ===
+.vscode : 3
+[ROOT] : 2
+Assets : 766
+Documentation : 1
+Packages : 2
+ProjectSettings : 27
+
+=== ROOT FILES ===
+.gitignore
+PROJECT_FILE_LIST.txt
+
+=== FILES OUTSIDE UNITY CORE ===
+Documentation/CaravanSystem/DesignNotes.md
+PROJECT_FILE_LIST.txt
+
+=== POSSIBLE AUXILIARY MATERIALS ===
+Assets/Assets/Orgv1/Behavior/Position/Diagnostics.meta
+Assets/Assets/Orgv1/Behavior/Position/Diagnostics/PositionRemovalDiagnosticHistory.cs
+Assets/Assets/Orgv1/Behavior/Position/Diagnostics/PositionRemovalDiagnosticHistory.cs.meta
+Assets/Assets/Orgv1/Behavior/Position/Diagnostics/PositionRemovalDiagnosticRecord.cs
+Assets/Assets/Orgv1/Behavior/Position/Diagnostics/PositionRemovalDiagnosticRecord.cs.meta
+Assets/Assets/Orgv1/Behavior/Position/Diagnostics/PositionRemovalDiagnosticTypes.cs
+Assets/Assets/Orgv1/Behavior/Position/Diagnostics/PositionRemovalDiagnosticTypes.cs.meta
+Assets/Assets/Orgv1/Documentation/CaravanSystem/TestRunLog.md
+Assets/Assets/Orgv1/Documentation/CaravanSystem/TestRunLog.md.meta
+Assets/Assets/Orgv1/Documentation/UI/README.md
+Assets/Assets/Orgv1/Documentation/UI/README.md.meta
+Assets/Assets/Orgv1/Documentation/UI/Screenshots.meta
+Assets/Assets/Orgv1/Documentation/UI/Screenshots/.gitkeep
+Assets/Assets/Orgv1/Documentation/UI/Screenshots/UI_Screenshot_UnityEditor_20261119_124825_160.png
+Assets/Assets/Orgv1/Documentation/UI/Screenshots/UI_Screenshot_UnityEditor_20261119_124825_160.png.meta
+Assets/Assets/Orgv1/Editor/UIScreenshotCaptureWindow.cs
+Assets/Assets/Orgv1/Editor/UIScreenshotCaptureWindow.cs.meta
+Assets/Assets/Orgv1/PROJECT_FILE_LIST.txt
+Assets/Assets/Orgv1/README.md
+Assets/Assets/Orgv1/README.md.meta
+Assets/Readme.asset
+Assets/Readme.asset.meta
+Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt
+Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt
+Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt
+Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold - AFL.txt
+Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold - License.txt
+Assets/TextMesh Pro/Examples & Extras/Fonts/Unity - OFL.txt
+Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
+Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat.meta
+Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo - URP.mat
+Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo - URP.mat.meta
+Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat
+Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat.meta
+Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs
+Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs.meta
+Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png
+Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png.meta
+Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+Assets/TutorialInfo.meta
+Assets/TutorialInfo/Icons.meta
+Assets/TutorialInfo/Icons/URP.png
+Assets/TutorialInfo/Icons/URP.png.meta
+Assets/TutorialInfo/Layout.wlt
+Assets/TutorialInfo/Layout.wlt.meta
+Assets/TutorialInfo/Scripts.meta
+Assets/TutorialInfo/Scripts/Editor.meta
+Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs.meta
+Assets/TutorialInfo/Scripts/Readme.cs
+Assets/TutorialInfo/Scripts/Readme.cs.meta
+PROJECT_FILE_LIST.txt
+ProjectSettings/ProjectVersion.txt
+
+=== UNITY PROJECT STRUCTURE ===
+Assets exists: True
+Packages exists: True
+ProjectSettings exists: True
+
+=== UNTRACKED FILES (NOT INCLUDED IN STAGED TREE) ===
+CSharp_Migration_Review.patch
+Integration_Tree_Application_Report.txt
+Integration_Tree_Preparation_Report.txt
+Integration_Tree_Verification_Report.txt
+
+=== END ===
