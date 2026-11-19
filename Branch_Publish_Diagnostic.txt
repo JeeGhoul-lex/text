@@ -1,0 +1,36 @@
+=== CURRENT BRANCH ===
+integration/full-unity-project
+
+=== WORKING TREE ===
+## integration/full-unity-project
+
+=== LOCAL BRANCHES ===
+  feature/unity-project-root-migration d5fd417 Migrate full Unity project to repository root
+* integration/full-unity-project       4ded749 Migrate full Unity project to repository root
+  main                                 4e77659 [origin/main] ¦ÞTÂTÇ¦¦TÂ TÄ¦¬¦-¦-¦¬TÌ¦-TË¦¦
+
+=== REMOTES ===
+origin	https://github.com/JeeGhoul-lex/Orgv1.git (fetch)
+origin	https://github.com/JeeGhoul-lex/Orgv1.git (push)
+
+=== LOCAL COMMIT ===
+commit 4ded7498ae3f9f67369613c27636ebd19aaf0897
+Author:     JeeGhoul-lex <fingirnails@gmail.com>
+AuthorDate: Thu Nov 19 23:28:40 2026 +0600
+Commit:     JeeGhoul-lex <fingirnails@gmail.com>
+CommitDate: Thu Nov 19 23:28:40 2026 +0600
+
+    Migrate full Unity project to repository root
+
+=== REMOTE BRANCH ON GITHUB ===
+11167be7329010d4b7005f1b249dbee08d8cb5c8	refs/heads/integration/full-unity-project
+
+=== LOCAL OBJECT STORAGE ===
+count: 49
+size: 3.43 MiB
+in-pack: 1289
+packs: 1
+size-pack: 20.05 MiB
+prune-packable: 0
+garbage: 3
+size-garbage: 15.67 MiB
