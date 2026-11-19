@@ -1,0 +1,891 @@
+﻿[UNITY_PACKAGE_CACHE] 01614664b831546d2ae94a42149d80ac
+  Referenced by: Assets\Scenes\SampleScene.unity
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Plugins\UI\InputSystemUIInputModule.cs.meta
+[NOT_FOUND_IN_SOURCE] 03cfc4915c15d504a9ed85ecc404e607
+  Referenced by: Assets\Settings\PC_Renderer.asset
+[UNITY_PACKAGE_CACHE] 04c410c9937594faa893a11dceb85f7e
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\Utils\Sampling.shader.meta
+[UNITY_PACKAGE_CACHE] 0529e6c5f6dea8c4a8c2835ed7de57cb
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\PathTracing\Meshes\SkyboxMesh.mesh.meta
+[UNITY_PACKAGE_CACHE] 058cba836c1846c3aa1c5fd2e28aea77
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\10 - Bullets & Numbered List Example.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\12 - Link Example.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\15 - Inline Graphics & Sprites.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\18 - ScrollRect & Masking & Layout.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\25 - Sunny Days Example.unity
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32\Runtime\TMP\TMP_SubMeshUI.cs.meta
+[UNITY_PACKAGE_CACHE] 06437c1ff663d574d9447842ba0a72e4
+  Referenced by: Assets\Settings\DefaultVolumeProfile.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Overrides\ScreenSpaceLensFlare.cs.meta
+[UNITY_PACKAGE_CACHE] 071e954febf155243a6c81e48f452644
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_9.png.meta
+[UNITY_PACKAGE_CACHE] 0849e84e3d62649e8882e9d6f056a017
+  Referenced by: Assets\Settings\PC_Renderer.asset
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\Utils\ScreenSpaceAmbientOcclusion.shader.meta
+[NOT_FOUND_IN_SOURCE] 088d960ecbf7a1d4a8f94993c066a0ff
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\04 - Word Wrapping.unity
+[UNITY_PACKAGE_CACHE] 08b2b5fb307b0d249860612774a987da
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\RenderPipelineResources\GPUDriven\OccluderDepthPyramidKernels.compute.meta
+[UNITY_PACKAGE_CACHE] 0951de5992461754fa73650732c4954c
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\Lighting\ProbeVolume\ProbeVolumeUploadData.compute.meta
+[UNITY_PACKAGE_CACHE] 0b2db86121404754db890f4c8dfe81b2
+  Referenced by: Assets\Settings\DefaultVolumeProfile.asset
+  Referenced by: Assets\Settings\SampleSceneProfile.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Overrides\Bloom.cs.meta
+[NOT_FOUND_IN_SOURCE] 0b4bdfba56924184bbe7c948f934fb70
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\17 - Old Computer Terminal.unity
+[UNITY_PACKAGE_CACHE] 0cd44c1031e13a943bb63640046fad76
+  Referenced by: Assets\Scenes\SampleScene.unity
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32\Runtime\UGUI\UI\Core\Layout\CanvasScaler.cs.meta
+[NOT_FOUND_IN_SOURCE] 0d7593b3a9277ac4696b20006c21dde2
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\28 - HDRP Shader Example\Sky and Fog Volume Profile.asset
+[UNITY_PACKAGE_CACHE] 0e9d5a909a1f7e84882a534d0d11e49f
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\AutodeskInteractive\AutodeskInteractive.shadergraph.meta
+[UNITY_PACKAGE_CACHE] 0f4122b9a743b744abe2fb6a0a88868b
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\Nature\SpeedTree7.shader.meta
+[NOT_FOUND_IN_SOURCE] 0fd9ee276a1023e439cf7a9c393195fa
+  Referenced by: Assets\Settings\DefaultVolumeProfile.asset
+[UNITY_PACKAGE_CACHE] 0ff99fd36f66f1a41bcc1d3c90e0922a
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\Debugging\Runtime UI Resources\DebugWindowCommon.uss.meta
+[UNITY_PACKAGE_CACHE] 1097e90e1306e26439701489f391a6c0
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\FilmGrain\Medium01.png.meta
+[UNITY_PACKAGE_CACHE] 10b6c6d22e73dea46a8ab36b6eebd629
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_23.png.meta
+[UNITY_PACKAGE_CACHE] 1121bb4e615ca3c48b214e79e841e823
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\PostProcessing\StopNaN.shader.meta
+[UNITY_PACKAGE_CACHE] 1134690bf9216164dbc75050e35b7900
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_2.png.meta
+[UNITY_PACKAGE_CACHE] 12dc59547ea167a4ab435097dd0f9add
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Shaders\CoreCopy.shader.meta
+[UNITY_PACKAGE_CACHE] 14381521ff11cb74abe3fe65401c23be
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_17.png.meta
+[UNITY_PACKAGE_CACHE] 15d0c3709176029428a0da2f8cecf0b5
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Materials\SpriteMask-Default.mat.meta
+[UNITY_PACKAGE_CACHE] 16e47c1641bd0104e92b624601457bb0
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\PathTracing\Shaders\BuildLightGrid.compute.meta
+[UNITY_PACKAGE_CACHE] 172515602e62fb746b5d573b38a5fe58
+  Referenced by: Assets\Scenes\SampleScene.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\28 - HDRP Shader Example.unity
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\Volume\Volume.cs.meta
+[UNITY_PACKAGE_CACHE] 179f794063d2a66478e6e726f84a65bc
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_31.png.meta
+[UNITY_PACKAGE_CACHE] 19349a0f9a7ed4c48a27445bcf92e5e1
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\2D\Shadow2D-Shadow-Geometry.shader.meta
+[UNITY_PACKAGE_CACHE] 1aa08ab6e0800fa44ae55d278d1423e3
+  Referenced by: Assets\Picture\Position\blockPrefab.prefab
+  Referenced by: Assets\Scenes\SampleScene.unity
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32\Runtime\UGUI\UI\Core\ScrollRect.cs.meta
+[UNITY_PACKAGE_CACHE] 1ad53a96b58d3c3488dde4f14db1aaeb
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\UnifiedRayTracing\Compute\RadeonRays\kernels\CopyPositions.compute.meta
+[UNITY_PACKAGE_CACHE] 1b95b5dcf48d1914c9e1e7405c7660e3
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\UnifiedRayTracing\Common\Utilities\CopyBuffer.compute.meta
+[UNITY_PACKAGE_CACHE] 1c3c6d69a645b804fa232004b96b7ad3
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_25.png.meta
+[UNITY_PACKAGE_CACHE] 1edcd131364091c46a17cbff0b1de97a
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\PostProcessing\CameraMotionBlur.shader.meta
+[UNITY_PACKAGE_CACHE] 20be25aac4e22ee49a7db76fb3df6de2
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\Debug\ProbeSamplingDebugMesh.fbx.meta
+[UNITY_PACKAGE_CACHE] 221518ef91623a7438a71fef23660601
+  Referenced by: Assets\Settings\DefaultVolumeProfile.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Overrides\WhiteBalance.cs.meta
+[UNITY_PACKAGE_CACHE] 222cce62363a44a380c36bf03b392608
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\Utils\ClusterDeferred.shader.meta
+[NOT_FOUND_IN_SOURCE] 23c1ce4fb46143f46bc5cb5224c934f6
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\28 - HDRP Shader Example.unity
+[NOT_FOUND_IN_SOURCE] 24ec0e140fb444a44ab96ee80844e18e
+  Referenced by: Assets\Settings\PC_Renderer.asset
+[UNITY_PACKAGE_CACHE] 26a413214480ef144b2915d6ff4d0beb
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\DebugFont.tga.meta
+[UNITY_PACKAGE_CACHE] 2705215ac5b84b70bacc50632be6e391
+  Referenced by: Assets\TextMesh Pro\Resources\TMP Settings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32\Runtime\TMP\TMP_Settings.cs.meta
+[UNITY_PACKAGE_CACHE] 29868e73b638e48ca99a19ea58c48d90
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\Terrain\WavingGrassBillboard.shader.meta
+[UNITY_PACKAGE_CACHE] 29fa0085f50d5e54f8144f766051a691
+  Referenced by: Assets\Settings\DefaultVolumeProfile.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Overrides\FilmGrain.cs.meta
+[UNITY_PACKAGE_CACHE] 2a4db7a114972834c8e4117be1d82ba3
+  Referenced by: Assets\Picture\Position\blockPrefab.prefab
+  Referenced by: Assets\Scenes\SampleScene.unity
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32\Runtime\UGUI\UI\Core\Scrollbar.cs.meta
+[UNITY_PACKAGE_CACHE] 2a567b9b2733f8d47a700c3c85bed75b
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\RenderPipelineResources\GPUDriven\InstanceTransformUpdateKernels.compute.meta
+[UNITY_PACKAGE_CACHE] 2aed67ad60045d54ba3a00c91e2d2631
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\PostProcessing\BokehDepthOfField.shader.meta
+[NOT_FOUND_IN_SOURCE] 2bf015e748557a84c8fa6bfc44e4d685
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\02 - Multi-line TextMesh Pro.unity
+[UNITY_PACKAGE_CACHE] 2ca97df9d1801e84a8a8f2c53cb744f0
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_4.png.meta
+[UNITY_PACKAGE_CACHE] 2d70cd6be91bd7843a39a54b51c15b13
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\UnifiedRayTracing\Compute\RadeonRays\kernels\build_hlbvh.compute.meta
+[UNITY_PACKAGE_CACHE] 2da0c512f12947e489f739169773d7ca
+  Referenced by: Assets\Picture\Position\blockPrefab.prefab
+  Referenced by: Assets\Scenes\SampleScene.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\20 - Input Field with Scrollbar.unity
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32\Runtime\TMP\TMP_InputField.cs.meta
+[UNITY_PACKAGE_CACHE] 2ec995e51a6e251468d2a3fd8a686257
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\UniversalRenderPipelineGlobalSettings.cs.meta
+[UNITY_PACKAGE_CACHE] 30649d3a9faa99c48a7b1166b86bf2a0
+  Referenced by: Assets\Picture\Position\blockPrefab.prefab
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32\Runtime\UGUI\UI\Core\Layout\HorizontalLayoutGroup.cs.meta
+[UNITY_PACKAGE_CACHE] 306cc8c2b49d7114eaa3623786fc2126
+  Referenced by: Assets\Picture\Position\blockPrefab.prefab
+  Referenced by: Assets\Scenes\SampleScene.unity
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32\Runtime\UGUI\UI\Core\Layout\LayoutElement.cs.meta
+[UNITY_PACKAGE_CACHE] 311925a002f4447b3a28927169b83ea6
+  Referenced by: Assets\Picture\Caravan\Caravans.prefab
+  Referenced by: Assets\Scenes\SampleScene.unity
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.2d.sprite@053a968eab56\Editor\ObjectMenuCreation\DefaultAssets\Textures\v2\Square.png.meta
+[UNITY_PACKAGE_CACHE] 31321ba15b8f8eb4c954353edc038b1d
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Materials\Lit.mat.meta
+[NOT_FOUND_IN_SOURCE] 316f956b856b45c448987b5018ec3ef4
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Prefabs\Text Popup.prefab
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\18 - ScrollRect & Masking & Layout.unity
+[UNITY_PACKAGE_CACHE] 31a19414c41e5ae4aae2af33fee712f6
+  Referenced by: Assets\Picture\Position\blockPrefab.prefab
+  Referenced by: Assets\Scenes\SampleScene.unity
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32\Runtime\UGUI\UI\Core\Mask.cs.meta
+[UNITY_PACKAGE_CACHE] 31d0dcc6f2dd4e4408d18036a2c93862
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Materials\Decal.mat.meta
+[UNITY_PACKAGE_CACHE] 3245ec927659c4140ac4f8d17403cc18
+  Referenced by: Assets\Scenes\SampleScene.unity
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32\Runtime\UGUI\UI\Core\Layout\ContentSizeFitter.cs.meta
+[UNITY_PACKAGE_CACHE] 3302065f671a8450b82c9ddf07426f3a
+  Referenced by: Assets\Settings\PC_Renderer.asset
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise256\LDR_LLL1_5.png.meta
+[UNITY_PACKAGE_CACHE] 3312d7739989d2b4e91e6319e9a96d76
+  Referenced by: Assets\Picture\Position\blockPrefab.prefab
+  Referenced by: Assets\Scenes\SampleScene.unity
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32\Runtime\UGUI\UI\Core\RectMask2D.cs.meta
+[UNITY_PACKAGE_CACHE] 33be2e9a5506b2843bdb2bdff9cad5e1
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\STP\StpSetup.compute.meta
+[UNITY_PACKAGE_CACHE] 36f118343fc974119bee3d09e2111500
+  Referenced by: Assets\Settings\PC_Renderer.asset
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise256\LDR_LLL1_0.png.meta
+[UNITY_PACKAGE_CACHE] 3923900e2b41b5e47bc25bfdcbcdc9e6
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\STP\StpTaa.compute.meta
+[UNITY_PACKAGE_CACHE] 39451254daebd6d40b52899c1f1c0c1b
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_6.png.meta
+[UNITY_PACKAGE_CACHE] 3a80877c579b9144ebdcc6d923bca303
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\Debug\ProbeVolumeFragmentationDebug.shader.meta
+[UNITY_PACKAGE_CACHE] 3a8aa4d508da46d4dace18b280f064aa
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\Debugging\Runtime UI Resources\RuntimeDebugWindow.uss.meta
+[UNITY_PACKAGE_CACHE] 3b21275fd12d65f49babb5286f040f2d
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\Debug\ProbeVolumeDebug.shader.meta
+[UNITY_PACKAGE_CACHE] 3eb4b772797da9440885e8bd939e9560
+  Referenced by: Assets\Settings\DefaultVolumeProfile.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Overrides\ColorCurves.cs.meta
+[UNITY_PACKAGE_CACHE] 3f6c848ca3d7bca4bbe846546ac701a1
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\2D\Light2D.shader.meta
+[UNITY_PACKAGE_CACHE] 41439944d30ece34e96484bdb6645b55
+  Referenced by: Assets\Settings\Mobile_Renderer.asset
+  Referenced by: Assets\Settings\PC_Renderer.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Data\PostProcessData.asset.meta
+[UNITY_PACKAGE_CACHE] 4431b1f1f743fbf4eb310a967890cbea
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\XR\XROcclusionMesh.shader.meta
+[UNITY_PACKAGE_CACHE] 44fc62292b65ab04eabcf310e799ccf6
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\2D\Shadow2D-Shadow-Sprite.shader.meta
+[UNITY_PACKAGE_CACHE] 474bcb49853aa07438625e644c072ee6
+  Referenced by: Assets\Scenes\SampleScene.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\24 - Surface Shader Example URP.unity
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\UniversalAdditionalLightData.cs.meta
+[UNITY_PACKAGE_CACHE] 47a45908f6db0cb44a0d5e961143afec
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_14.png.meta
+[UNITY_PACKAGE_CACHE] 4b7b083e6b6734e8bb2838b0b50a0bc8
+  Referenced by: Assets\Settings\PC_Renderer.asset
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise256\LDR_LLL1_1.png.meta
+[UNITY_PACKAGE_CACHE] 4d6d5de35fa45ef4a92119397a045cc9
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\UnifiedRayTracing\Compute\RadeonRays\kernels\block_scan.compute.meta
+[UNITY_PACKAGE_CACHE] 4dcc0502f8586f941b5c4a66717205e8
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_15.png.meta
+[UNITY_PACKAGE_CACHE] 4e034cc8ea2635c4e9f063e5ddc7ea7a
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\UnifiedRayTracing\Compute\RadeonRays\kernels\block_reduce_part.compute.meta
+[UNITY_PACKAGE_CACHE] 4e29b1a8efbd4b44bb3f3716e73f07ff
+  Referenced by: Assets\Picture\Position\PositionUI.prefab
+  Referenced by: Assets\Scenes\SampleScene.unity
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32\Runtime\UGUI\UI\Core\Button.cs.meta
+[UNITY_PACKAGE_CACHE] 4f231c4fb786f3946a6b90b886c48677
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\12a - Text Interactions.unity
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32\Runtime\UGUI\EventSystem\InputModules\StandaloneInputModule.cs.meta
+[NOT_FOUND_IN_SOURCE] 500878462c972a14d87cb770d2b59923
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\12a - Text Interactions.unity
+[UNITY_PACKAGE_CACHE] 510a2f57334933e4a8dbabe4c30204e4
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\FilmGrain\Medium05.png.meta
+[UNITY_PACKAGE_CACHE] 51eee22c2a633ef4aada830eed57c3fd
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\SMAA\SearchTex.tga.meta
+[UNITY_PACKAGE_CACHE] 53626a513ea68ce47b59dc1299fe3959
+  Referenced by: Assets\Settings\Mobile_Renderer.asset
+  Referenced by: Assets\Settings\PC_Renderer.asset
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\Debug\ProbeVolumeSamplingDebugPositionNormal.compute.meta
+[UNITY_PACKAGE_CACHE] 53864816eb00f2343b60e1a2c5a262ef
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\RenderPipelineResources\GPUDriven\InstanceDataBufferUploadKernels.compute.meta
+[NOT_FOUND_IN_SOURCE] 53a11f4ebaebf4049b3638ef78dc9664
+  Referenced by: Assets\Settings\PC_Renderer.asset
+[UNITY_PACKAGE_CACHE] 5485954d14dfb9a4c8ead8edb0ded5b1
+  Referenced by: Assets\Settings\DefaultVolumeProfile.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Overrides\LiftGammaGain.cs.meta
+[UNITY_PACKAGE_CACHE] 54d21f6ece3b46479f0c328f8c6007e0
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Resources\Color Gradient Presets\Blue to Purple - Vertical.asset
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Resources\Color Gradient Presets\Dark to Light Green - Vertical.asset
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Resources\Color Gradient Presets\Light to Dark Green - Vertical.asset
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Resources\Color Gradient Presets\Yellow to Orange - Vertical.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32\Runtime\TMP\TMP_ColorGradient.cs.meta
+[UNITY_PACKAGE_CACHE] 557fa399e33bf7647bda5697c5c158df
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\PathTracing\Shaders\BlitCookie.compute.meta
+[UNITY_PACKAGE_CACHE] 558a8e2b6826cf840aae193990ba9f2e
+  Referenced by: Assets\Settings\DefaultVolumeProfile.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Overrides\ShadowsMidtonesHighlights.cs.meta
+[UNITY_PACKAGE_CACHE] 562b7ae4f629f144aa97780546fce7c6
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\PostProcessing\EdgeAdaptiveSpatialUpsampling.shader.meta
+[NOT_FOUND_IN_SOURCE] 56510bd4b3627c840a063bd270324c89
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\03 - Line Justification.unity
+[UNITY_PACKAGE_CACHE] 56641cb88dcb31a4398a4997ef7a7a8c
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\UnifiedRayTracing\Compute\RadeonRays\kernels\restructure_bvh.compute.meta
+[UNITY_PACKAGE_CACHE] 56a77a3e8d64f47b6afe9e3c95cb57d5
+  Referenced by: Assets\Settings\PC_Renderer.asset
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise256\LDR_LLL1_6.png.meta
+[UNITY_PACKAGE_CACHE] 573620ae32aec764abd4d728906d2587
+  Referenced by: Assets\Settings\Mobile_Renderer.asset
+  Referenced by: Assets\Settings\PC_Renderer.asset
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\Debug\HDRDebugView.shader.meta
+[NOT_FOUND_IN_SOURCE] 57d7c4c16e2765b47a4d2069b311bffe
+  Referenced by: Assets\Settings\PC_Renderer.asset
+[UNITY_PACKAGE_CACHE] 594ea882c5a793440b60ff72d896021e
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Materials\TerrainLit.mat.meta
+[UNITY_PACKAGE_CACHE] 59f8146938fff824cb5fd77236b75775
+  Referenced by: Assets\Picture\Position\PositionUI.prefab
+  Referenced by: Assets\Scenes\SampleScene.unity
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32\Runtime\UGUI\UI\Core\Layout\VerticalLayoutGroup.cs.meta
+[NOT_FOUND_IN_SOURCE] 5a00a63fdd6bd2a45ab1f2d869305ffd
+  Referenced by: Assets\Settings\DefaultVolumeProfile.asset
+[UNITY_PACKAGE_CACHE] 5a2a534753fbdb44e96c3c78b5a6999d
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Editor\Lighting\ProbeVolume\DynamicGI\DynamicGISkyOcclusion.urtshader.meta
+[UNITY_PACKAGE_CACHE] 5a992812cb320d146a66cc600200cce7
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\PathTracing\Shaders\BlitCubemap.compute.meta
+[UNITY_PACKAGE_CACHE] 5bb2534d2411d344cbc54f880232640f
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\PathTracing\Environment\EnvironmentImportanceSamplingBuild.compute.meta
+[UNITY_PACKAGE_CACHE] 5c81372d981403744adbdda4433c9c11
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\AutodeskInteractive\AutodeskInteractiveTransparent.shadergraph.meta
+[NOT_FOUND_IN_SOURCE] 5cb611ed8508d904ebba194afcee9c98
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\01-  Single Line TextMesh Pro.unity
+[UNITY_PACKAGE_CACHE] 5cdee82a77d13994f83b8fdabed7c301
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\FilmGrain\Large02.png.meta
+[UNITY_PACKAGE_CACHE] 5e7134d6e63e0bc47a1dd2669cedb379
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\PostProcessing\GaussianDepthOfField.shader.meta
+[UNITY_PACKAGE_CACHE] 5efaea0e81c66334aa9d062d6573e6fd
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\PathTracing\Shaders\SetAlphaChannel.compute.meta
+[UNITY_PACKAGE_CACHE] 5f1864addb451f54bae8c86d230f736e
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\PostProcessing\Bloom.shader.meta
+[NOT_FOUND_IN_SOURCE] 60f3b30c03e6ba64d9a27dc9dba8f28d
+  Referenced by: Assets\Settings\DefaultVolumeProfile.asset
+[UNITY_PACKAGE_CACHE] 6196f34ed825db14b81fb3eb0ea8d931
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\Lighting\ProbeVolume\ProbeVolumeUploadDataL2.compute.meta
+[UNITY_PACKAGE_CACHE] 620b55b8040a88d468e94abe55bed5ba
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\Vrs\Shaders\VrsVisualization.shader.meta
+[UNITY_PACKAGE_CACHE] 63eaba0ebfb82cc43bde059b4a8c65f6
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\PostProcessing\SubpixelMorphologicalAntialiasing.shader.meta
+[UNITY_PACKAGE_CACHE] 654c582f7f8a5a14dbd7d119cbde215d
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\FilmGrain\Thin01.png.meta
+[UNITY_PACKAGE_CACHE] 65df88701913c224d95fc554db28381a
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\PostProcessing\LutBuilderLdr.shader.meta
+[UNITY_PACKAGE_CACHE] 66f335fb1ffd8684294ad653bf1c7564
+  Referenced by: Assets\Settings\DefaultVolumeProfile.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Overrides\ColorAdjustments.cs.meta
+[UNITY_PACKAGE_CACHE] 6a1143ee683302f4aa628c052723efc1
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Materials\SimpleLit.mat.meta
+[NOT_FOUND_IN_SOURCE] 6a9165d4abc743c469f4e1f2ee39605c
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\05 - Style Tags.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\06 - Extra Rich Text Examples.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\08 - Improved Text Alignment.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\09 - Margin Tag Example.unity
+[NOT_FOUND_IN_SOURCE] 6b9a46634d3f3f0498640b1a019d5853
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\14 - Multi Font & Sprites.unity
+[UNITY_PACKAGE_CACHE] 6bb382f7de370af41b775f54182e491d
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Editor\Lighting\ProbeVolume\ProbeVolumeCellDilation.compute.meta
+[UNITY_PACKAGE_CACHE] 6bd486065ce11414fa40e631affc4900
+  Referenced by: Assets\Settings\DefaultVolumeProfile.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\Lighting\ProbeVolume\ProbeVolumesOptions.cs.meta
+[UNITY_PACKAGE_CACHE] 6cda457ac28612740adb23da5d39ea92
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\PostProcessing\LensFlareDataDriven.shader.meta
+[UNITY_PACKAGE_CACHE] 701880fecb344ea4c9cd0db3407ab287
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\PostProcessing\LensFlareScreenSpace.shader.meta
+[UNITY_PACKAGE_CACHE] 70afe9e12c7a7ed47911bb608a23a8ff
+  Referenced by: Assets\Settings\DefaultVolumeProfile.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Overrides\SplitToning.cs.meta
+[UNITY_PACKAGE_CACHE] 71c1514a6bd24e1e882cebbe1904ce04
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Fonts\Unity.asset
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Anton SDF.asset
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers SDF.asset
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Electronic Highway Sign SDF.asset
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Oswald Bold SDF.asset
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Roboto-Bold SDF.asset
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Unity SDF.asset
+  Referenced by: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF - Fallback.asset
+  Referenced by: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32\Runtime\TMP\TMP_FontAsset.cs.meta
+[NOT_FOUND_IN_SOURCE] 73c176f402d2c2f4d929aa5da7585d17
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\28 - HDRP Shader Example.unity
+[UNITY_PACKAGE_CACHE] 73fe53b428c5b3440b7e87ee830b608a
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\Debug\ProbeVolumeNumbersDisplayTex.png.meta
+[NOT_FOUND_IN_SOURCE] 74955a4b0b4243bc87231e8b59ed9140
+  Referenced by: Assets\Settings\DefaultVolumeProfile.asset
+[UNITY_PACKAGE_CACHE] 76c392e42b5098c458856cdf6ecaaaa1
+  Referenced by: Assets\Scenes\SampleScene.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\12a - Text Interactions.unity
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32\Runtime\UGUI\EventSystem\EventSystem.cs.meta
+[UNITY_PACKAGE_CACHE] 77774d9009bb81447b048c907d4c6273
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\2D\Shadow2D-Unshadow-Geometry.shader.meta
+[NOT_FOUND_IN_SOURCE] 7a68c43fe1f2a47cfa234b5eeaa98012
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\28 - HDRP Shader Example.unity
+[UNITY_PACKAGE_CACHE] 7b743370ac3e4ec2a1668f5455a8ef8a
+  Referenced by: Assets\Picture\Position\blockPrefab.prefab
+  Referenced by: Assets\Scenes\SampleScene.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\26 - Dropdown Placeholder Example.unity
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32\Runtime\TMP\TMP_Dropdown.cs.meta
+[UNITY_PACKAGE_CACHE] 7ce2118f74614a94aa8a0cdf2e6062c3
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_3.png.meta
+[UNITY_PACKAGE_CACHE] 80aa867ac363ac043847b06ad71604cd
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\AutodeskInteractive\AutodeskInteractiveMasked.shadergraph.meta
+[UNITY_PACKAGE_CACHE] 81180773991d8724ab7f2d216912b564
+  Referenced by: Assets\Settings\DefaultVolumeProfile.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Overrides\ChromaticAberration.cs.meta
+[UNITY_PACKAGE_CACHE] 81200413a40918d4d8702e94db29911c
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_0.png.meta
+[UNITY_PACKAGE_CACHE] 84a92b25f83d49b9bc132d206b370281
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Resources\Sprite Assets\Default Sprite Asset.asset
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Resources\Sprite Assets\DropCap Numbers.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32\Runtime\TMP\TMP_SpriteAsset.cs.meta
+[UNITY_PACKAGE_CACHE] 8670f7ce4b60cef43bed36148aa1b0a2
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\UnifiedRayTracing\Compute\RadeonRays\kernels\bit_histogram.compute.meta
+[UNITY_PACKAGE_CACHE] 896d9004736809c4fb5973b7c12eb8b9
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_30.png.meta
+[UNITY_PACKAGE_CACHE] 899c54efeace73346a0a16faa3afe726
+  Referenced by: Assets\Settings\DefaultVolumeProfile.asset
+  Referenced by: Assets\Settings\SampleSceneProfile.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Overrides\Vignette.cs.meta
+[NOT_FOUND_IN_SOURCE] 8b8c8a10edf94ddc8cc4cc4fcd5696a9
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Materials\Ground - Logo Scene.mat
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers SDF Logo - URP.mat
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers SDF Logo.mat
+[UNITY_PACKAGE_CACHE] 8c3ee818f2efa514c889881ccb2e95a2
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\Utils\StencilDitherMaskSeed.shader.meta
+[NOT_FOUND_IN_SOURCE] 8f96cd657dc40064aa21efcc7e50a2e7
+  Referenced by: Assets\Settings\PC_Renderer.asset
+[UNITY_PACKAGE_CACHE] 9085046f02f69544eb97fd06b6048fe2
+  Referenced by: Assets\Picture\Position\blockPrefab.prefab
+  Referenced by: Assets\Scenes\SampleScene.unity
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32\Runtime\UGUI\UI\Core\Toggle.cs.meta
+[NOT_FOUND_IN_SOURCE] 92bb8874fcf329247bea65570fd7532a
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\24 - Surface Shader Example URP.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\24 - Surface Shader Example.unity
+[UNITY_PACKAGE_CACHE] 933532a4fcc9baf4fa0491de14d08ed7
+  Referenced by: Assets\Picture\Materials\Map.mat
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Materials\Crate - URP.mat
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Materials\Ground - URP.mat
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\Lit.shader.meta
+[UNITY_PACKAGE_CACHE] 93446b5c5339d4f00b85c159e1159b7c
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\Utils\CoreBlit.shader.meta
+[UNITY_PACKAGE_CACHE] 9452ae1262a74094f8a68013fbcd1834
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Materials\Mesh2D-Lit-Default.mat.meta
+[UNITY_PACKAGE_CACHE] 94a070d33e408384bafc1dea4a565df9
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Editor\Lighting\ProbeVolume\RenderingLayerMask\TraceRenderingLayerMask.urtshader.meta
+[UNITY_PACKAGE_CACHE] 9541d86e2fd84c1d9990edf0852d74ab
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Prefabs\TextMeshPro - Prefab 1.prefab
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Prefabs\TextMeshPro - Prefab 2.prefab
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\01-  Single Line TextMesh Pro.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\02 - Multi-line TextMesh Pro.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\03 - Line Justification.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\04 - Word Wrapping.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\05 - Style Tags.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\07 - Superscript & Subscript Example.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\09 - Margin Tag Example.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\12a - Text Interactions.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\14 - Multi Font & Sprites.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\24 - Surface Shader Example URP.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\24 - Surface Shader Example.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\27 - Double Pass Shader Example.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\28 - HDRP Shader Example.unity
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32\Runtime\TMP\TextMeshPro.cs.meta
+[NOT_FOUND_IN_SOURCE] 955cc2a4737565a4293837beb489fb59
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\07 - Superscript & Subscript Example.unity
+[UNITY_PACKAGE_CACHE] 96aaab9cc247d0b4c98132159688c1af
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_10.png.meta
+[UNITY_PACKAGE_CACHE] 97c23e3b12dc18c42a140437e53d3951
+  Referenced by: Assets\Settings\DefaultVolumeProfile.asset
+  Referenced by: Assets\Settings\SampleSceneProfile.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Overrides\Tonemapping.cs.meta
+[UNITY_PACKAGE_CACHE] 98e3d58cae7210c4786f67f504c9e899
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\UnifiedRayTracing\Common\GeometryPool\GeometryPoolKernels.compute.meta
+[UNITY_PACKAGE_CACHE] 9920c1f1781549a46ba081a2a15a16ec
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\Nature\SpeedTree8_PBRLit.shadergraph.meta
+[UNITY_PACKAGE_CACHE] 9930fb4528622b34687b00bbe6883de7
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\FilmGrain\Medium03.png.meta
+[UNITY_PACKAGE_CACHE] 9c70c1a35ff15f340b38ea84842358bf
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\PostProcessing\TemporalAA.shader.meta
+[UNITY_PACKAGE_CACHE] 9d92991794bb5864c8085468b97aa067
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_16.png.meta
+[UNITY_PACKAGE_CACHE] 9dfc825aed78fcd4ba02077103263b40
+  Referenced by: Assets\Picture\Caravan\Caravans.prefab
+  Referenced by: Assets\Picture\Location\CustomPoint\CustomPoint.prefab
+  Referenced by: Assets\Scenes\SampleScene.unity
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Materials\Sprite-Unlit-Default.mat.meta
+[UNITY_PACKAGE_CACHE] a15b78cf8ca26ca4fb2090293153c62c
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\PostProcessing\PaniniProjection.shader.meta
+[UNITY_PACKAGE_CACHE] a2eaeefdac4637a44b734e85b7be9186
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\UnifiedRayTracing\Compute\RadeonRays\kernels\scatter.compute.meta
+[UNITY_PACKAGE_CACHE] a2ec5cbf5a9b64345ad3fab0912ddf7b
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_24.png.meta
+[UNITY_PACKAGE_CACHE] a3f7b8c99de28a94684cb1daebeccf5d
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\Lighting\ProbeVolume\ProbeVolumeBlendStates.compute.meta
+[UNITY_PACKAGE_CACHE] a679dba8ec4d9ce45884a270b0e22dda
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\STP\StpPreTaa.compute.meta
+[UNITY_PACKAGE_CACHE] a79441f348de89743a2939f4d699eac1
+  Referenced by: Assets\Scenes\SampleScene.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\24 - Surface Shader Example URP.unity
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\UniversalAdditionalCameraData.cs.meta
+[UNITY_PACKAGE_CACHE] a80925ceebd011741b42509226cefc74
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\PathTracing\Meshes\6FaceSkyboxMesh.mesh.meta
+[UNITY_PACKAGE_CACHE] a89bee29cffa951418fc1e2da94d1959
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\Utils\BlitHDROverlay.shader.meta
+[UNITY_PACKAGE_CACHE] a97c105638bdf8b4a8650670310a4cd3
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Materials\Sprite-Lit-Default.mat.meta
+[NOT_FOUND_IN_SOURCE] a9df86876be30af4e9b5f5975d8ee7d8
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\15 - Inline Graphics & Sprites.unity
+[UNITY_PACKAGE_CACHE] ab2114bdc8544297b417dfefe9f1e410
+  Referenced by: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32\Runtime\TMP\TMP_StyleSheet.cs.meta
+[UNITY_PACKAGE_CACHE] b23e766bcf50ca4438ef186b174557df
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\RenderPipelineResources\GPUDriven\OcclusionCullingDebug.compute.meta
+[UNITY_PACKAGE_CACHE] b3c92426a88625841ab15ca6a7917248
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\RenderPipelineResources\GPUDriven\DebugOccluder.shader.meta
+[UNITY_PACKAGE_CACHE] b4db8180660810945bf8d55ab44352ad
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\FilmGrain\Medium06.png.meta
+[UNITY_PACKAGE_CACHE] b647ceb1e15264943b9b439971e71110
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\Debugging\Runtime UI Resources\RuntimeDebugWindow.uxml.meta
+[NOT_FOUND_IN_SOURCE] b9a23f869c4fd45f19c5ada54dd82176
+  Referenced by: Assets\Settings\PC_Renderer.asset
+[UNITY_PACKAGE_CACHE] bb86f1f0af829fd45b2ebddda1245c22
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Editor\Lighting\ProbeVolume\ProbeVolumeSubdivide.compute.meta
+[UNITY_PACKAGE_CACHE] bd9e8c758250ef449a4b4bfaad7a2133
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\FilmGrain\Medium04.png.meta
+[UNITY_PACKAGE_CACHE] bf2edee5c58d82540a51f03df9d42094
+  Referenced by: Assets\Settings\Mobile_RPAsset.asset
+  Referenced by: Assets\Settings\PC_RPAsset.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Data\UniversalRenderPipelineAsset.cs.meta
+[UNITY_PACKAGE_CACHE] bf54e6528c79a224e96346799064c393
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\Debug\ProbeVolumeSamplingDebug.shader.meta
+[UNITY_PACKAGE_CACHE] bfed3e498947fcb4890b7f40f54d85b9
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_12.png.meta
+[UNITY_PACKAGE_CACHE] c01700fd266d6914ababb731e09af2eb
+  Referenced by: Assets\Settings\DefaultVolumeProfile.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Overrides\DepthOfField.cs.meta
+[UNITY_PACKAGE_CACHE] c06cc21c692f94f5fb5206247191eeee
+  Referenced by: Assets\Settings\PC_Renderer.asset
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise256\LDR_LLL1_2.png.meta
+[NOT_FOUND_IN_SOURCE] c41005c129ba4d66911b75229fd70b45
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\14 - Multi Font & Sprites.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\18 - ScrollRect & Masking & Layout.unity
+  Referenced by: Assets\TextMesh Pro\Resources\TMP Settings.asset
+[NOT_FOUND_IN_SOURCE] c45cd05946364f32aba704f0853a975b
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Materials\Ground - Surface Shader Scene.mat
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Materials\Ground - URP.mat
+[UNITY_PACKAGE_CACHE] c49e63ed1bbcb334780a3bd19dfed403
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\PostProcessing\FinalPost.shader.meta
+[UNITY_PACKAGE_CACHE] c56b7e0d4c7cb484e959caeeedae9bbf
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\CameraMotionVectors.shader.meta
+[UNITY_PACKAGE_CACHE] c5e1dc532bcb41949b58bc4f2abfbb7e
+  Referenced by: Assets\Settings\DefaultVolumeProfile.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Overrides\LensDistortion.cs.meta
+[UNITY_PACKAGE_CACHE] c8b6a681c7b4e2e4785ffab093907f9e
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Editor\Lighting\ProbeVolume\VoxelizeScene.shader.meta
+[UNITY_PACKAGE_CACHE] c94ad916058dff743b0f1c969ddbe660
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_7.png.meta
+[UNITY_PACKAGE_CACHE] c989e1ed85cf7154caa922fec53e6af6
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_27.png.meta
+[UNITY_PACKAGE_CACHE] c9bd74624d8070f429e3f46d161f9204
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_20.png.meta
+[UNITY_PACKAGE_CACHE] ca9f5fa95ffab41fb9a615ab714db018
+  Referenced by: Assets\Scenes\SampleScene.unity
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Plugins\PlayerInput\DefaultInputActions.inputactions.meta
+[UNITY_PACKAGE_CACHE] cacb30de6c40c7444bbc78cb0a81fd2a
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\Vrs\Shaders\VrsTexture.compute.meta
+[UNITY_PACKAGE_CACHE] cb76dd40fa7654f9587f6a344f125c9a
+  Referenced by: Assets\Settings\PC_Renderer.asset
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise256\LDR_LLL1_3.png.meta
+[UNITY_PACKAGE_CACHE] cbd3e1cc4ae141c42a30e33b4d666a61
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\Nature\SpeedTree9_URP.shadergraph.meta
+[UNITY_PACKAGE_CACHE] ccf1aba9553839d41ae37dd52e9ebcce
+  Referenced by: Assets\Settings\DefaultVolumeProfile.asset
+  Referenced by: Assets\Settings\SampleSceneProfile.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Overrides\MotionBlur.cs.meta
+[UNITY_PACKAGE_CACHE] cdfbdbb87d3286943a057f7791b43141
+  Referenced by: Assets\Settings\DefaultVolumeProfile.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Overrides\ChannelMixer.cs.meta
+[UNITY_PACKAGE_CACHE] ce09d4a80b88c5a4eb9768fab4f1ee00
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\2D\Shadow2D-Projected.shader.meta
+[UNITY_PACKAGE_CACHE] cf852408f2e174538bcd9b7fda1c5ae7
+  Referenced by: Assets\Settings\Mobile_Renderer.asset
+  Referenced by: Assets\Settings\PC_Renderer.asset
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\Debug\DebugReplacement.shader.meta
+[UNITY_PACKAGE_CACHE] d0353a89b1f911e48b9e16bdc9f2e058
+  Referenced by: Assets\Picture\Materials\Map.mat
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Materials\Crate - URP.mat
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Materials\Ground - URP.mat
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers SDF Logo - URP.mat
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Roboto-Bold SDF - URP.mat
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Editor\AssetVersion.cs.meta
+[UNITY_PACKAGE_CACHE] d104b2fc1ca6445babb8e90b0758136b
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\Utils\CoreBlitColorAndDepth.shader.meta
+[UNITY_PACKAGE_CACHE] d18a24d7b4ed50f4387993566d9d3ae2
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_26.png.meta
+[UNITY_PACKAGE_CACHE] d1f1048909d55cd4fa1126ab998f617e
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\SMAA\AreaTex.tga.meta
+[UNITY_PACKAGE_CACHE] d36f0fe53425e08499a2333cf423634c
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_18.png.meta
+[UNITY_PACKAGE_CACHE] d3f0849180c2d0944bc71060693df100
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\RenderPipelineResources\GPUDriven\DebugOcclusionTest.shader.meta
+[UNITY_PACKAGE_CACHE] d4044ea2490d63b43aa1765f8efbf8a9
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_19.png.meta
+[UNITY_PACKAGE_CACHE] d50c5e07c9911a74982bddf7f3075e7b
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_1.png.meta
+[UNITY_PACKAGE_CACHE] d512512f4af60a442ab3458489412954
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_13.png.meta
+[UNITY_PACKAGE_CACHE] d5a307c014552314b9f560906d708772
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\XR\XRMirrorView.shader.meta
+[UNITY_PACKAGE_CACHE] d5c9b274310e5524ebe32a4e4da3df1f
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_21.png.meta
+[UNITY_PACKAGE_CACHE] d6dae50ee9e1bfa4db75f19f99355220
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\Utils\CopyDepth.shader.meta
+[UNITY_PACKAGE_CACHE] d7fd9488000d3734a9e00ee676215985
+  Referenced by: Assets\Settings\DefaultVolumeProfile.asset
+  Referenced by: Assets\Settings\SampleSceneProfile.asset
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\28 - HDRP Shader Example\Sky and Fog Volume Profile.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\Volume\VolumeProfile.cs.meta
+[NOT_FOUND_IN_SOURCE] da692e001514ec24dbc4cca1949ff7e8
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Roboto-Bold SDF - HDRP Unlit.mat
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Unity SDF - HDRP LIT - Bloom.mat
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Unity SDF - HDRP LIT - Outline.mat
+[UNITY_PACKAGE_CACHE] db8bd7436dc2c5f4c92655307d198381
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\Debug\ProbeVolumeOffsetDebug.shader.meta
+[UNITY_PACKAGE_CACHE] dc42784cf147c0c48a680349fa168899
+  Referenced by: Assets\Scenes\SampleScene.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\12a - Text Interactions.unity
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32\Runtime\UGUI\UI\Core\GraphicRaycaster.cs.meta
+[UNITY_PACKAGE_CACHE] dd77ffd079630404e879388999033049
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\FilmGrain\Thin02.png.meta
+[UNITY_PACKAGE_CACHE] de02b375720b5c445afe83cd483bedf3
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\2D\Shadow2D-Unshadow-Sprite.shader.meta
+[UNITY_PACKAGE_CACHE] de640fe3d0db1804a85f9fc8f5cadab6
+  Referenced by: Assets\Settings\Mobile_Renderer.asset
+  Referenced by: Assets\Settings\PC_Renderer.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\UniversalRendererData.cs.meta
+[UNITY_PACKAGE_CACHE] e021b4c809a781e468c2988c016ebbea
+  Referenced by: Assets\Settings\DefaultVolumeProfile.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Overrides\ColorLookup.cs.meta
+[NOT_FOUND_IN_SOURCE] e31164aa529c1144b9f1820dbd4d2aca
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\28 - HDRP Shader Example.unity
+[UNITY_PACKAGE_CACHE] e32226222ff144b24bf3a5a451de54bc
+  Referenced by: Assets\Settings\PC_Renderer.asset
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise256\LDR_LLL1_4.png.meta
+[UNITY_PACKAGE_CACHE] e3d24661c1e055f45a7560c033dbb837
+  Referenced by: Assets\Settings\Mobile_RPAsset.asset
+  Referenced by: Assets\Settings\PC_RPAsset.asset
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise64\L\LDR_LLL1_0.png.meta
+[UNITY_PACKAGE_CACHE] e507fdfead5ca47e8b9a768b51c291a1
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\Terrain\WavingGrass.shader.meta
+[NOT_FOUND_IN_SOURCE] e5c6678ed2aaa91408dd3df699057aae
+  Referenced by: Assets\Settings\PC_Renderer.asset
+[UNITY_PACKAGE_CACHE] e63eef8f54aa9dc4da9a5ac094b503b5
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_5.png.meta
+[UNITY_PACKAGE_CACHE] e6e9a19c3678ded42a3bc431ebef7dbd
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\Utils\FallbackError.shader.meta
+[UNITY_PACKAGE_CACHE] e7857e9d0c934dc4f83f270f8447b006
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\PostProcessing\UberPost.shader.meta
+[UNITY_PACKAGE_CACHE] e823cd5b5d27c0f4b8256e7c12ee3e6d
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Materials\ParticlesUnlit.mat.meta
+[UNITY_PACKAGE_CACHE] e8ee25143a34b8c4388709ea947055d1
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\PostProcessing\ScalingSetup.shader.meta
+[UNITY_PACKAGE_CACHE] e9155b26e1bc55942a41e518703fe304
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\Utils\StencilDeferred.shader.meta
+[UNITY_PACKAGE_CACHE] ec9fec698a3456d4fb18cf8bacb7a2bc
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\PostProcessing\LutBuilderHdr.shader.meta
+[UNITY_PACKAGE_CACHE] ed5ea7ce59ca8ec4f9f14bf470a30f35
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_8.png.meta
+[UNITY_PACKAGE_CACHE] eda47df5b85f4f249abf7abd73db2cb2
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Editor\Volume\DefaultVolumeProfile.asset.meta
+[UNITY_PACKAGE_CACHE] f056d8bd2a1c7e44e9729144b4c70395
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Decal\DBuffer\DBufferClear.shader.meta
+[UNITY_PACKAGE_CACHE] f0b67500f7fad3b4c9f2b13e8f41ba6e
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\FilmGrain\Medium02.png.meta
+[UNITY_PACKAGE_CACHE] f4688fdb7df04437aeb418b961361dc5
+  Referenced by: Assets\Picture\Position\blockPrefab.prefab
+  Referenced by: Assets\Picture\Position\PositionUI.prefab
+  Referenced by: Assets\Scenes\SampleScene.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Prefabs\Text Popup.prefab
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\05 - Style Tags.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\06 - Extra Rich Text Examples.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\08 - Improved Text Alignment.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\09 - Margin Tag Example.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\10 - Bullets & Numbered List Example.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\11 - The Style Tag.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\12 - Link Example.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\12a - Text Interactions.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\13 - Soft Hyphenation.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\15 - Inline Graphics & Sprites.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\16 - Linked text overflow mode example.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\17 - Old Computer Terminal.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\18 - ScrollRect & Masking & Layout.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\19 - Masking Texture & Soft Mask.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\20 - Input Field with Scrollbar.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\23 - Animating Vertex Attributes.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\25 - Sunny Days Example.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\26 - Dropdown Placeholder Example.unity
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32\Runtime\TMP\TextMeshProUGUI.cs.meta
+[NOT_FOUND_IN_SOURCE] f5f67c52d1564df4a8936ccd202a3bd8
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Prefabs\Text Popup.prefab
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\05 - Style Tags.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\06 - Extra Rich Text Examples.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\08 - Improved Text Alignment.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\09 - Margin Tag Example.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\10 - Bullets & Numbered List Example.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\11 - The Style Tag.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\12 - Link Example.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\13 - Soft Hyphenation.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\15 - Inline Graphics & Sprites.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\16 - Linked text overflow mode example.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\17 - Old Computer Terminal.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\18 - ScrollRect & Masking & Layout.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\19 - Masking Texture & Soft Mask.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\20 - Input Field with Scrollbar.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\22 - Basic Scripting Example.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\23 - Animating Vertex Attributes.unity
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\25 - Sunny Days Example.unity
+[UNITY_PACKAGE_CACHE] f62c9c65cf3354c93be831c8bc075510
+  Referenced by: Assets\Settings\PC_Renderer.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\RendererFeatures\ScreenSpaceAmbientOcclusion.cs.meta
+[UNITY_PACKAGE_CACHE] f6783ab646d374f94b199774402a5144
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\Terrain\TerrainDetailLit.shader.meta
+[UNITY_PACKAGE_CACHE] f69770e54f2823f43badf77916acad83
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_22.png.meta
+[UNITY_PACKAGE_CACHE] f6d223acabc2f974795a5a7864b50e6c
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\RenderPipelineResources\GPUDriven\InstanceOcclusionCullingKernels.compute.meta
+[NOT_FOUND_IN_SOURCE] f70555f144d8491a825f0804e09c671c
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Scenes\26 - Dropdown Placeholder Example.unity
+[UNITY_PACKAGE_CACHE] f89aac1e4f84468418fe30e611dff395
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Shaders\XR\XRMotionVector.shader.meta
+[NOT_FOUND_IN_SOURCE] f8caea216d5e7af42872b30cd96a235f
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers SDF Logo - URP.mat
+  Referenced by: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers SDF Logo.mat
+[UNITY_PACKAGE_CACHE] f984aeb540ded8b4fbb8a2047ab5b2e2
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\RenderPipelineResources\GPUDriven\InstanceDataBufferCopyKernels.compute.meta
+[UNITY_PACKAGE_CACHE] f9ee4ed84c1d10c49aabb9b210b0fc44
+  Referenced by: Assets\Settings\Mobile_RPAsset.asset
+  Referenced by: Assets\Settings\PC_RPAsset.asset
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BayerMatrix.png.meta
+[UNITY_PACKAGE_CACHE] fa042edbfc40fbd4bad0ab9d505b1223
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_29.png.meta
+[UNITY_PACKAGE_CACHE] fa69697be3070b04a893666f5947f18c
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\Debugging\Runtime UI Resources\RuntimeDebugWindow_PanelSettings.asset.meta
+[UNITY_PACKAGE_CACHE] fb60a22f311433c4c962b888d1393f88
+  Referenced by: Assets\Settings\DefaultVolumeProfile.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\Overrides\PaniniProjection.cs.meta
+[UNITY_PACKAGE_CACHE] fc3fa8f108657e14486697c9a84ccfc5
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_11.png.meta
+[UNITY_PACKAGE_CACHE] fd2fd78b392986e42a12df2177d3b89c
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\FilmGrain\Large01.png.meta
+[UNITY_PACKAGE_CACHE] fde76746e4fd0ed418c224f6b4084114
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Runtime\RenderPipelineResources\GPUDriven\InstanceWindDataUpdateKernels.compute.meta
+[UNITY_PACKAGE_CACHE] fe4f13c1004a07d4ea1e30bfd0326d9e
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Runtime\RendererFeatures\OnTileUberPost.shader.meta
+[UNITY_PACKAGE_CACHE] fe87c0e1cc204ed48ad3b37840f39efc
+  Referenced by: Assets\Picture\Position\blockPrefab.prefab
+  Referenced by: Assets\Picture\Position\PositionUI.prefab
+  Referenced by: Assets\Scenes\SampleScene.unity
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32\Runtime\UGUI\UI\Core\Image.cs.meta
+[UNITY_PACKAGE_CACHE] ff2cbab5da58bf04d82c5f34037ed123
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65\Editor\Lighting\ProbeVolume\VirtualOffset\TraceVirtualOffset.urtshader.meta
+[UNITY_PACKAGE_CACHE] ff47e5a0f105eb34883b973e51f4db62
+  Referenced by: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+  Package asset: D:\Unity\My project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa\Textures\BlueNoise16\L\LDR_LLL1_28.png.meta
+=== GUID COMPARISON ===
+Original Assets GUIDs: 421
+Integration Assets GUIDs: 421
+Original PackageCache GUIDs: 20031
+Referenced unique GUIDs: 400
+
+BUILTIN : 2
+SOURCE_ASSETS_ONLY : 0
+UNITY_PACKAGE_CACHE : 222
+NOT_FOUND_IN_SOURCE : 35
+
+=== DETAILED CLASSIFICATION ===
+
+=== PROJECT SETTINGS COMPARISON ===
+ProjectSettings\EditorBuildSettings.asset : DIFFERENT
+ProjectSettings\ProjectVersion.txt : DIFFERENT
+Packages\manifest.json : DIFFERENT
+Packages\packages-lock.json : DIFFERENT
