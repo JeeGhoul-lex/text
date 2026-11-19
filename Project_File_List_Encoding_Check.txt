@@ -1,0 +1,18 @@
+﻿=== NORMAL DIFF ===
+224	224	Assets/Assets/Orgv1/PROJECT_FILE_LIST.txt
+
+=== IGNORE END-OF-LINE WHITESPACE ===
+ExitCode: 0 (0 = no meaningful difference)
+
+=== IGNORE CR AT END OF LINE ===
+ExitCode: 0 (0 = no meaningful difference)
+
+=== IGNORE ALL WHITESPACE ===
+ExitCode: 0 (0 = no meaningful difference)
+
+=== BLOB HASHES ===
+7e90eca47cc67bac96e72c835da38598ccc9e446
+1d190b77578630f6ef732df36a83cf37ff30716c
+
+=== FILE ATTRIBUTES ===
+Assets/Assets/Orgv1/PROJECT_FILE_LIST.txt: text: auto
