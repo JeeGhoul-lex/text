@@ -1,0 +1,41 @@
+﻿=== STATUS PORCELAIN V2 ===
+1 .M N... 100644 100644 100644 0e6fbec40e3c4bf6a129ba90bcb65dd6e735442f 0e6fbec40e3c4bf6a129ba90bcb65dd6e735442f Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+1 .M N... 100644 100644 100644 e93902726eba42edefa519b8977947b5322221b6 e93902726eba42edefa519b8977947b5322221b6 ProjectSettings/EditorBuildSettings.asset
+1 .M N... 100644 100644 100644 abe7505dc25881a3f4b879c02d878b0e63bf2098 abe7505dc25881a3f4b879c02d878b0e63bf2098 ProjectSettings/ProjectSettings.asset
+1 .M N... 100644 100644 100644 ce8c2432884fcc0d627b3cef54a6ea51d4f766e4 ce8c2432884fcc0d627b3cef54a6ea51d4f766e4 ProjectSettings/ShaderGraphSettings.asset
+? Assets/Assets/Orgv1/Documentation/UI/Screenshots/UI_Screenshot_UnityEditor_20261119_213104_897.png
+? Assets/Assets/Orgv1/Documentation/UI/Screenshots/UI_Screenshot_UnityEditor_20261119_213104_897.png.meta
+? Assets/Assets/Orgv1/Documentation/UI/Screenshots/UI_Screenshot_UnityEditor_20261119_213118_235.png
+? Assets/Assets/Orgv1/Documentation/UI/Screenshots/UI_Screenshot_UnityEditor_20261119_213118_235.png.meta
+? Assets/Assets/Orgv1/Documentation/UI/Screenshots/UI_Screenshot_UnityEditor_20261119_213119_269.png
+? Assets/Assets/Orgv1/Documentation/UI/Screenshots/UI_Screenshot_UnityEditor_20261119_213119_269.png.meta
+? Assets/Assets/Orgv1/Documentation/UI/Screenshots/UI_Screenshot_UnityEditor_20261119_214056_876.png
+? Assets/Assets/Orgv1/Documentation/UI/Screenshots/UI_Screenshot_UnityEditor_20261119_214056_876.png.meta
+? CSharp_Migration_Review.patch
+? Final_PreCommit_Audit.txt
+? Integration_Tree_Application_Report.txt
+? Integration_Tree_Preparation_Report.txt
+? Integration_Tree_Verification_Report.txt
+? Orgv1_Commit_Result.txt
+? Orgv1_Final_Check_2.txt
+? Orgv1_Final_PreCommit_Audit.txt
+? Orgv1_PostCommit_Diff_Audit.txt
+? Root_Files_Check.txt
+? Root_Files_Restore_Check.txt
+? Staged_Content_Audit.txt
+? Unity_GUID_Comparison.txt
+? Unity_Integrity_Audit.txt
+? Unity_Settings_Diff_Report.txt
+
+=== RAW DIFF ===
+
+=== DIFF SUMMARY ===
+
+=== FILE ATTRIBUTES ===
+Assets/Settings/UniversalRenderPipelineGlobalSettings.asset: text: auto
+ProjectSettings/EditorBuildSettings.asset: text: auto
+ProjectSettings/ProjectSettings.asset: text: auto
+ProjectSettings/ShaderGraphSettings.asset: text: auto
+
+=== LINE ENDING CONFIGURATION ===
+file:C:/Program Files/Git/etc/gitconfig	true
